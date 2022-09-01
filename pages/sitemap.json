@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"SitemapPage\",\"version\":1},\"props\":{\"id\":\"sitemap\",\"language\":\"en\",\"slug\":\"/sitemap\",\"url\":\"https://armada-alliance.com/sitemap\",\"origin\":\"/sitemap\",\"title\":\"Sitemap\",\"aliases\":null,\"keywords\":null,\"template\":\"SitemapPage\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/sitemap.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2022-09-01T16:22:27.471Z",
-  "_cachedIn": "1.51 ms",
-  "_resolvedIn": "1.51 ms",
+  "_cachedAt": "2022-09-01T18:21:51.267Z",
+  "_cachedIn": "1.39 ms",
+  "_resolvedIn": "1.39 ms",
   "id": "SitemapPage",
   "type": "SitemapPage",
   "status": "resolved",
@@ -1701,6 +1701,21 @@
         "filePath": "/en/identities/raspberrypi.md"
       },
       {
+        "id": "rob-ferguson",
+        "language": "en",
+        "slug": "/identities/rob-ferguson",
+        "url": "https://armada-alliance.com/identities/rob-ferguson",
+        "origin": "/identities/rob-ferguson",
+        "title": "Rob",
+        "description": "SPO",
+        "aliases": null,
+        "keywords": null,
+        "template": "IdentityDetailPage",
+        "image": "https://orcada.io/assets/images/orcada-logo-64x64.jpeg",
+        "updatedAt": "2022-09-01T04:29:56.000Z",
+        "filePath": "/en/identities/rob-ferguson.md"
+      },
+      {
         "id": "robby-beada",
         "language": "en",
         "slug": "/identities/robby-beada",
@@ -1774,6 +1789,21 @@
         "image": "/sbc-mining.jpg",
         "updatedAt": "2021-07-14T18:12:31.000Z",
         "filePath": "/en/identities/sbc-mining.md"
+      },
+      {
+        "id": "sean-doyle",
+        "language": "en",
+        "slug": "/identities/sean-doyle",
+        "url": "https://armada-alliance.com/identities/sean-doyle",
+        "origin": "/identities/sean-doyle",
+        "title": "Sean",
+        "description": "Founder, SPO",
+        "aliases": null,
+        "keywords": null,
+        "template": "IdentityDetailPage",
+        "image": "https://orcada.io/assets/images/orcada-logo-64x64.jpeg",
+        "updatedAt": "2022-09-01T04:29:56.000Z",
+        "filePath": "/en/identities/sean-doyle.md"
       },
       {
         "id": "seriru",
@@ -2679,6 +2709,32 @@
         "rank": 0
       },
       {
+        "id": "83202c4914374cba6c1ee655ffed5a9b57eab61f6658faa3567376c2",
+        "language": "en",
+        "slug": "/stake-pools/83202c4914374cba6c1ee655ffed5a9b57eab61f6658faa3567376c2",
+        "url": "https://armada-alliance.com/stake-pools/83202c4914374cba6c1ee655ffed5a9b57eab61f6658faa3567376c2",
+        "origin": "/stake-pools/83202c4914374cba6c1ee655ffed5a9b57eab61f6658faa3567376c2",
+        "title": "Orcada (ORCA)",
+        "description": "Orcada is a Cardano Stake Pool built for whales... of all sizes.",
+        "aliases": null,
+        "keywords": null,
+        "template": "PoolDetailPage",
+        "identities": [
+          {
+            "id": "sean-doyle",
+            "role": "spo"
+          },
+          {
+            "id": "rob-ferguson",
+            "role": "spo"
+          }
+        ],
+        "image": "https://orcada.io/assets/images/orcada-logo-1600x900.png",
+        "updatedAt": "2022-09-01T04:29:56.000Z",
+        "filePath": "/en/stake-pools/83202c4914374cba6c1ee655ffed5a9b57eab61f6658faa3567376c2.md",
+        "rank": 0
+      },
+      {
         "id": "86d3b37680b0b5d91717d782774640823d85a0f64b4b2881de1ded86",
         "language": "en",
         "slug": "/stake-pools/86d3b37680b0b5d91717d782774640823d85a0f64b4b2881de1ded86",
@@ -3286,6 +3342,14 @@
         "slug": "/pool-widget/827900818541013d518ee6b2af343a973c8d836884fb000742307400",
         "template": "PoolWidgetPage",
         "poolId": "827900818541013d518ee6b2af343a973c8d836884fb000742307400",
+        "hidden": true
+      },
+      {
+        "language": "en",
+        "title": "Orcada ORCA",
+        "slug": "/pool-widget/83202c4914374cba6c1ee655ffed5a9b57eab61f6658faa3567376c2",
+        "template": "PoolWidgetPage",
+        "poolId": "83202c4914374cba6c1ee655ffed5a9b57eab61f6658faa3567376c2",
         "hidden": true
       },
       {
@@ -9422,17 +9486,17 @@
   "attrs": {
     "component-type": "SitemapPage",
     "component-id": "SitemapPage",
-    "component-cached-at": "2022-09-01T16:22:27.471Z",
-    "component-cached-in": "1.51 ms",
-    "component-resolved-in": "1.51 ms"
+    "component-cached-at": "2022-09-01T18:21:51.267Z",
+    "component-cached-in": "1.39 ms",
+    "component-resolved-in": "1.39 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-09-01T16:22:27.471Z",
-      "_cachedIn": "239 μs",
-      "_resolvedIn": "239 μs",
+      "_cachedAt": "2022-09-01T18:21:51.267Z",
+      "_cachedIn": "206 μs",
+      "_resolvedIn": "206 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -9441,17 +9505,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2022-09-01T16:22:27.471Z",
-        "component-cached-in": "239 μs",
-        "component-resolved-in": "239 μs"
+        "component-cached-at": "2022-09-01T18:21:51.267Z",
+        "component-cached-in": "206 μs",
+        "component-resolved-in": "206 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-09-01T16:22:27.471Z",
-          "_cachedIn": "103 μs",
-          "_resolvedIn": "103 μs",
+          "_cachedAt": "2022-09-01T18:21:51.267Z",
+          "_cachedIn": "88 μs",
+          "_resolvedIn": "88 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -9459,7 +9523,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2022-09-01T16:20:01.059Z",
+              "createdAt": "2022-09-01T18:19:23.518Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -11276,6 +11340,21 @@
                 "filePath": "/en/identities/raspberrypi.md"
               },
               {
+                "id": "rob-ferguson",
+                "language": "en",
+                "slug": "/identities/rob-ferguson",
+                "url": "https://armada-alliance.com/identities/rob-ferguson",
+                "origin": "/identities/rob-ferguson",
+                "title": "Rob",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://orcada.io/assets/images/orcada-logo-64x64.jpeg",
+                "updatedAt": "2022-09-01T04:29:56.000Z",
+                "filePath": "/en/identities/rob-ferguson.md"
+              },
+              {
                 "id": "robby-beada",
                 "language": "en",
                 "slug": "/identities/robby-beada",
@@ -11349,6 +11428,21 @@
                 "image": "/sbc-mining.jpg",
                 "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sbc-mining.md"
+              },
+              {
+                "id": "sean-doyle",
+                "language": "en",
+                "slug": "/identities/sean-doyle",
+                "url": "https://armada-alliance.com/identities/sean-doyle",
+                "origin": "/identities/sean-doyle",
+                "title": "Sean",
+                "description": "Founder, SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://orcada.io/assets/images/orcada-logo-64x64.jpeg",
+                "updatedAt": "2022-09-01T04:29:56.000Z",
+                "filePath": "/en/identities/sean-doyle.md"
               },
               {
                 "id": "seriru",
@@ -12254,6 +12348,32 @@
                 "rank": 0
               },
               {
+                "id": "83202c4914374cba6c1ee655ffed5a9b57eab61f6658faa3567376c2",
+                "language": "en",
+                "slug": "/stake-pools/83202c4914374cba6c1ee655ffed5a9b57eab61f6658faa3567376c2",
+                "url": "https://armada-alliance.com/stake-pools/83202c4914374cba6c1ee655ffed5a9b57eab61f6658faa3567376c2",
+                "origin": "/stake-pools/83202c4914374cba6c1ee655ffed5a9b57eab61f6658faa3567376c2",
+                "title": "Orcada (ORCA)",
+                "description": "Orcada is a Cardano Stake Pool built for whales... of all sizes.",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "sean-doyle",
+                    "role": "spo"
+                  },
+                  {
+                    "id": "rob-ferguson",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://orcada.io/assets/images/orcada-logo-1600x900.png",
+                "updatedAt": "2022-09-01T04:29:56.000Z",
+                "filePath": "/en/stake-pools/83202c4914374cba6c1ee655ffed5a9b57eab61f6658faa3567376c2.md",
+                "rank": 0
+              },
+              {
                 "id": "86d3b37680b0b5d91717d782774640823d85a0f64b4b2881de1ded86",
                 "language": "en",
                 "slug": "/stake-pools/86d3b37680b0b5d91717d782774640823d85a0f64b4b2881de1ded86",
@@ -12861,6 +12981,14 @@
                 "slug": "/pool-widget/827900818541013d518ee6b2af343a973c8d836884fb000742307400",
                 "template": "PoolWidgetPage",
                 "poolId": "827900818541013d518ee6b2af343a973c8d836884fb000742307400",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Orcada ORCA",
+                "slug": "/pool-widget/83202c4914374cba6c1ee655ffed5a9b57eab61f6658faa3567376c2",
+                "template": "PoolWidgetPage",
+                "poolId": "83202c4914374cba6c1ee655ffed5a9b57eab61f6658faa3567376c2",
                 "hidden": true
               },
               {
@@ -19003,18 +19131,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2022-09-01T16:22:27.471Z",
-            "component-cached-in": "103 μs",
-            "component-resolved-in": "103 μs"
+            "component-cached-at": "2022-09-01T18:21:51.267Z",
+            "component-cached-in": "88 μs",
+            "component-resolved-in": "88 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-09-01T16:22:27.471Z",
-          "_cachedIn": "145 μs",
-          "_resolvedIn": "145 μs",
+          "_cachedAt": "2022-09-01T18:21:51.267Z",
+          "_cachedIn": "118 μs",
+          "_resolvedIn": "118 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -19025,17 +19153,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2022-09-01T16:22:27.471Z",
-            "component-cached-in": "145 μs",
-            "component-resolved-in": "145 μs"
+            "component-cached-at": "2022-09-01T18:21:51.267Z",
+            "component-cached-in": "118 μs",
+            "component-resolved-in": "118 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2022-09-01T16:22:27.471Z",
-              "_cachedIn": "36 μs",
-              "_resolvedIn": "36 μs",
+              "_cachedAt": "2022-09-01T18:21:51.267Z",
+              "_cachedIn": "30 μs",
+              "_resolvedIn": "30 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -19095,9 +19223,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2022-09-01T16:22:27.471Z",
-                "component-cached-in": "36 μs",
-                "component-resolved-in": "36 μs"
+                "component-cached-at": "2022-09-01T18:21:51.267Z",
+                "component-cached-in": "30 μs",
+                "component-resolved-in": "30 μs"
               },
               "components": {}
             }
@@ -19106,7 +19234,7 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-09-01T16:22:27.471Z",
+          "_cachedAt": "2022-09-01T18:21:51.267Z",
           "_cachedIn": "53 μs",
           "_resolvedIn": "53 μs",
           "id": "Footer",
@@ -19117,7 +19245,7 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2022-09-01T16:22:27.471Z",
+            "component-cached-at": "2022-09-01T18:21:51.267Z",
             "component-cached-in": "53 μs",
             "component-resolved-in": "53 μs"
           },
