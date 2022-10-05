@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Oyster Pool OYSTR\",\"slug\":\"/pool-widget/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d\",\"template\":\"PoolWidgetPage\",\"poolId\":\"febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2022-10-05T18:31:09.307Z",
-  "_cachedIn": "157 μs",
-  "_resolvedIn": "157 μs",
+  "_cachedAt": "2022-10-05T20:42:13.101Z",
+  "_cachedIn": "637 μs",
+  "_resolvedIn": "637 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -32,7 +32,7 @@
       "totalStake": "878154762554",
       "blocksLifetime": 384,
       "delegators": 148,
-      "saturated": 0.01281862316767723,
+      "saturated": 0.01281862403490296,
       "pledge": "555000000000",
       "pledged": "555285693856",
       "taxRatio": 0.02,
@@ -149,7 +149,7 @@
             },
             "time_zone": {
               "id": "America/Toronto",
-              "current_time": "2022-10-05T14:31:01-04:00",
+              "current_time": "2022-10-05T16:42:03-04:00",
               "gmt_offset": -14400,
               "code": "EDT",
               "is_daylight_saving": true
@@ -244,17 +244,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2022-10-05T18:31:09.307Z",
-    "component-cached-in": "157 μs",
-    "component-resolved-in": "157 μs"
+    "component-cached-at": "2022-10-05T20:42:13.101Z",
+    "component-cached-in": "637 μs",
+    "component-resolved-in": "637 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-10-05T18:31:09.307Z",
-      "_cachedIn": "58 μs",
-      "_resolvedIn": "58 μs",
+      "_cachedAt": "2022-10-05T20:42:13.101Z",
+      "_cachedIn": "226 μs",
+      "_resolvedIn": "226 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -263,17 +263,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2022-10-05T18:31:09.307Z",
-        "component-cached-in": "58 μs",
-        "component-resolved-in": "58 μs"
+        "component-cached-at": "2022-10-05T20:42:13.101Z",
+        "component-cached-in": "226 μs",
+        "component-resolved-in": "226 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-10-05T18:31:09.307Z",
-          "_cachedIn": "33 μs",
-          "_resolvedIn": "33 μs",
+          "_cachedAt": "2022-10-05T20:42:13.101Z",
+          "_cachedIn": "171 μs",
+          "_resolvedIn": "171 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -281,7 +281,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2022-10-05T18:30:49.088Z",
+              "createdAt": "2022-10-05T20:41:47.283Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1783,6 +1783,21 @@
                 "filePath": "/en/identities/iog.md"
               },
               {
+                "id": "jack9000",
+                "language": "en",
+                "slug": "/identities/jack9000",
+                "url": "https://armada-alliance.com/identities/jack9000",
+                "origin": "/identities/jack9000",
+                "title": "Jack",
+                "description": "Founder, SPO, Software engineer",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://ada9000.io/logo50kb.png",
+                "updatedAt": "2022-10-05T20:01:39.000Z",
+                "filePath": "/en/identities/jack9000.md"
+              },
+              {
                 "id": "jackson-wiebe",
                 "language": "en",
                 "slug": "/identities/jackson-wiebe",
@@ -2036,21 +2051,6 @@
                 "image": "https://github.com/pgwadapool/poolpage/blob/main/logo.JPG?raw=true",
                 "updatedAt": "2021-07-28T15:27:22.000Z",
                 "filePath": "/en/identities/pgwad.md"
-              },
-              {
-                "id": "pixel-jack",
-                "language": "en",
-                "slug": "/identities/pixel-jack",
-                "url": "https://armada-alliance.com/identities/pixel-jack",
-                "origin": "/identities/pixel-jack",
-                "title": "Jack",
-                "description": "Founder, SPO, Software engineer",
-                "aliases": null,
-                "keywords": null,
-                "template": "IdentityDetailPage",
-                "image": "https://pixelpool.io/assets/pool/pool_logo.png",
-                "updatedAt": "2022-02-26T22:24:54.000Z",
-                "filePath": "/en/identities/pixel-jack.md"
               },
               {
                 "id": "planetpalz",
@@ -2942,12 +2942,12 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "pixel-jack",
+                    "id": "jack9000",
                     "role": "spo"
                   }
                 ],
-                "image": "https://a9000.io/assets/static/logo64kb.png",
-                "updatedAt": "2022-02-26T12:47:11.000Z",
+                "image": "https://ada9000.io/logo50kb.png",
+                "updatedAt": "2022-10-05T20:01:39.000Z",
                 "filePath": "/en/stake-pools/4f3410f074e7363091a1cc1c21b128ae423d1cce897bd19478e534bb.md",
                 "rank": 13
               },
@@ -9889,18 +9889,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2022-10-05T18:31:09.307Z",
-            "component-cached-in": "33 μs",
-            "component-resolved-in": "33 μs"
+            "component-cached-at": "2022-10-05T20:42:13.101Z",
+            "component-cached-in": "171 μs",
+            "component-resolved-in": "171 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-10-05T18:31:09.307Z",
-          "_cachedIn": "45 μs",
-          "_resolvedIn": "45 μs",
+          "_cachedAt": "2022-10-05T20:42:13.101Z",
+          "_cachedIn": "197 μs",
+          "_resolvedIn": "197 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9911,17 +9911,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2022-10-05T18:31:09.307Z",
-            "component-cached-in": "45 μs",
-            "component-resolved-in": "45 μs"
+            "component-cached-at": "2022-10-05T20:42:13.101Z",
+            "component-cached-in": "197 μs",
+            "component-resolved-in": "197 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2022-10-05T18:31:09.307Z",
-              "_cachedIn": "13 μs",
-              "_resolvedIn": "13 μs",
+              "_cachedAt": "2022-10-05T20:42:13.101Z",
+              "_cachedIn": "29 μs",
+              "_resolvedIn": "29 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9981,9 +9981,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2022-10-05T18:31:09.307Z",
-                "component-cached-in": "13 μs",
-                "component-resolved-in": "13 μs"
+                "component-cached-at": "2022-10-05T20:42:13.101Z",
+                "component-cached-in": "29 μs",
+                "component-resolved-in": "29 μs"
               },
               "components": {}
             }
@@ -9992,9 +9992,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-10-05T18:31:09.307Z",
-          "_cachedIn": "12 μs",
-          "_resolvedIn": "12 μs",
+          "_cachedAt": "2022-10-05T20:42:13.101Z",
+          "_cachedIn": "26 μs",
+          "_resolvedIn": "26 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -10003,9 +10003,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2022-10-05T18:31:09.307Z",
-            "component-cached-in": "12 μs",
-            "component-resolved-in": "12 μs"
+            "component-cached-at": "2022-10-05T20:42:13.101Z",
+            "component-cached-in": "26 μs",
+            "component-resolved-in": "26 μs"
           },
           "components": {}
         }
