@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Token Stake Pool TOKEN\",\"slug\":\"/pool-widget/1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737\",\"template\":\"PoolWidgetPage\",\"poolId\":\"1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2022-10-20T16:29:03.158Z",
-  "_cachedIn": "339 μs",
-  "_resolvedIn": "339 μs",
+  "_cachedAt": "2022-10-20T18:33:19.286Z",
+  "_cachedIn": "263 μs",
+  "_resolvedIn": "263 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,7 +24,7 @@
         "href": "/stake-pools/1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737"
       },
       "description": "Solar-powered nodes with block producer on arm-based M1 Apple Silicon. Fungible token distribution at https://dripdropz.io/explore-projects/TOKEN",
-      "image": "https://cdn.adapools.org/pool_logo/1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737.png",
+      "image": "https://pool.pm/registry/0171c997b8853fde686763d93b36ab8e04ce947bb6aa09a9ee5c4401/TOKEN/logo.png",
       "hasImage": true,
       "ticker": "TOKEN",
       "addr": "pool1re05a679dfnjdlfk4uhcwzem6c4jqneu6xekuvhg54nnwuat2pf",
@@ -32,7 +32,7 @@
       "totalStake": "21613066698",
       "blocksLifetime": 0,
       "delegators": 53,
-      "saturated": 0.0003151327166437891,
+      "saturated": 0.00031513275044364275,
       "pledge": "5000000000",
       "pledged": "12884724805",
       "taxRatio": 0.01,
@@ -101,7 +101,7 @@
             },
             "time_zone": {
               "id": "America/Mexico_City",
-              "current_time": "2022-10-20T11:28:55-05:00",
+              "current_time": "2022-10-20T13:33:10-05:00",
               "gmt_offset": -18000,
               "code": "CDT",
               "is_daylight_saving": true
@@ -153,7 +153,7 @@
             },
             "time_zone": {
               "id": "America/Chicago",
-              "current_time": "2022-10-20T11:28:55-05:00",
+              "current_time": "2022-10-20T13:33:11-05:00",
               "gmt_offset": -18000,
               "code": "CDT",
               "is_daylight_saving": true
@@ -172,8 +172,42 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "Token Stake Pool",
+        "description": "Solar-powered nodes with block producer on arm-based M1 Apple Silicon. Fungible token distribution at https://dripdropz.io/explore-projects/TOKEN",
+        "ticker": "TOKEN",
+        "homepage": "https://token.stakepool.cc",
+        "extended": "https://raw.githubusercontent.com/tokenstakepool/metadata/main/extPoolMetaData.json"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://pool.pm/registry/0171c997b8853fde686763d93b36ab8e04ce947bb6aa09a9ee5c4401/TOKEN/logo.png",
+          "url_png_logo": "https://pool.pm/registry/0171c997b8853fde686763d93b36ab8e04ce947bb6aa09a9ee5c4401/TOKEN/logo.png",
+          "location": "Mexico 🇲🇽",
+          "social": {
+            "twitter_handle": "token_stakepool",
+            "telegram_handle": "tokenstakepool",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": "tokenstakepool"
+          },
+          "company": {
+            "name": "",
+            "addr": "",
+            "city": "",
+            "country": "",
+            "company_id": "",
+            "vat_id": ""
+          },
+          "about": {
+            "me": "Mexican stake pool operator with a degree in Electronics Engineering and MSc. in Computer Science. The operator has participated in artificial intelligence research and development of vision-based navigation systems for autonomous robots using convolutional neural networks, reinforcement learning and consensus algorithms. Long-time Bitcoin advocate, 11+ years of experience with cryptocurrencies, and a deep passion for Cardano's Proof-of-Stake (PoS) protocol.",
+            "server": "The block producer is located in Mexico, a Cardano node running on arm-based Mac Mini M1. Relay nodes are low-powered computers deployed locally in Mexico, and the United States. This on-grid solar-powered setup was inspired by OTG off-the-grid stake pool, credits to WCat from the Armada Alliance.",
+            "company": ""
+          }
+        }
+      },
       "telegram": "tokenstakepool",
       "twitter": "token_stakepool",
       "github": "tokenstakepool",
@@ -183,17 +217,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2022-10-20T16:29:03.158Z",
-    "component-cached-in": "339 μs",
-    "component-resolved-in": "339 μs"
+    "component-cached-at": "2022-10-20T18:33:19.286Z",
+    "component-cached-in": "263 μs",
+    "component-resolved-in": "263 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-10-20T16:29:03.158Z",
-      "_cachedIn": "111 μs",
-      "_resolvedIn": "111 μs",
+      "_cachedAt": "2022-10-20T18:33:19.286Z",
+      "_cachedIn": "85 μs",
+      "_resolvedIn": "85 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -202,17 +236,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2022-10-20T16:29:03.158Z",
-        "component-cached-in": "111 μs",
-        "component-resolved-in": "111 μs"
+        "component-cached-at": "2022-10-20T18:33:19.286Z",
+        "component-cached-in": "85 μs",
+        "component-resolved-in": "85 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-10-20T16:29:03.158Z",
-          "_cachedIn": "64 μs",
-          "_resolvedIn": "64 μs",
+          "_cachedAt": "2022-10-20T18:33:19.286Z",
+          "_cachedIn": "47 μs",
+          "_resolvedIn": "47 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -220,7 +254,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2022-10-20T16:28:43.085Z",
+              "createdAt": "2022-10-20T18:32:57.988Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2636,7 +2670,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737.png",
+                "image": "https://pool.pm/registry/0171c997b8853fde686763d93b36ab8e04ce947bb6aa09a9ee5c4401/TOKEN/logo.png",
                 "updatedAt": "2022-07-22T16:10:26.000Z",
                 "filePath": "/en/stake-pools/1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737.md",
                 "rank": 13
@@ -9828,18 +9862,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2022-10-20T16:29:03.158Z",
-            "component-cached-in": "64 μs",
-            "component-resolved-in": "64 μs"
+            "component-cached-at": "2022-10-20T18:33:19.286Z",
+            "component-cached-in": "47 μs",
+            "component-resolved-in": "47 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-10-20T16:29:03.158Z",
-          "_cachedIn": "87 μs",
-          "_resolvedIn": "87 μs",
+          "_cachedAt": "2022-10-20T18:33:19.286Z",
+          "_cachedIn": "64 μs",
+          "_resolvedIn": "64 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9850,17 +9884,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2022-10-20T16:29:03.158Z",
-            "component-cached-in": "87 μs",
-            "component-resolved-in": "87 μs"
+            "component-cached-at": "2022-10-20T18:33:19.286Z",
+            "component-cached-in": "64 μs",
+            "component-resolved-in": "64 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2022-10-20T16:29:03.158Z",
-              "_cachedIn": "23 μs",
-              "_resolvedIn": "23 μs",
+              "_cachedAt": "2022-10-20T18:33:19.286Z",
+              "_cachedIn": "20 μs",
+              "_resolvedIn": "20 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9920,9 +9954,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2022-10-20T16:29:03.158Z",
-                "component-cached-in": "23 μs",
-                "component-resolved-in": "23 μs"
+                "component-cached-at": "2022-10-20T18:33:19.286Z",
+                "component-cached-in": "20 μs",
+                "component-resolved-in": "20 μs"
               },
               "components": {}
             }
@@ -9931,9 +9965,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-10-20T16:29:03.158Z",
-          "_cachedIn": "24 μs",
-          "_resolvedIn": "24 μs",
+          "_cachedAt": "2022-10-20T18:33:19.286Z",
+          "_cachedIn": "17 μs",
+          "_resolvedIn": "17 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9942,9 +9976,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2022-10-20T16:29:03.158Z",
-            "component-cached-in": "24 μs",
-            "component-resolved-in": "24 μs"
+            "component-cached-at": "2022-10-20T18:33:19.286Z",
+            "component-cached-in": "17 μs",
+            "component-resolved-in": "17 μs"
           },
           "components": {}
         }
