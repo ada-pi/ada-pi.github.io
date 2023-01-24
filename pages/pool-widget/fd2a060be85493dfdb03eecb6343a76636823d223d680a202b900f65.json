@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"RADAR Stake Pool RADAR\",\"slug\":\"/pool-widget/fd2a060be85493dfdb03eecb6343a76636823d223d680a202b900f65\",\"template\":\"PoolWidgetPage\",\"poolId\":\"fd2a060be85493dfdb03eecb6343a76636823d223d680a202b900f65\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2023-01-24T15:19:30.423Z",
-  "_cachedIn": "340 μs",
-  "_resolvedIn": "340 μs",
+  "_cachedAt": "2023-01-24T18:02:31.610Z",
+  "_cachedIn": "243 μs",
+  "_resolvedIn": "243 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -32,7 +32,7 @@
       "totalStake": "6579043032266",
       "blocksLifetime": 752,
       "delegators": 217,
-      "saturated": 0.09514933064092296,
+      "saturated": 0.0951493380303853,
       "pledge": "100000000000",
       "pledged": "138652489888",
       "taxRatio": 0.01,
@@ -180,17 +180,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2023-01-24T15:19:30.423Z",
-    "component-cached-in": "340 μs",
-    "component-resolved-in": "340 μs"
+    "component-cached-at": "2023-01-24T18:02:31.610Z",
+    "component-cached-in": "243 μs",
+    "component-resolved-in": "243 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2023-01-24T15:19:30.423Z",
-      "_cachedIn": "108 μs",
-      "_resolvedIn": "108 μs",
+      "_cachedAt": "2023-01-24T18:02:31.610Z",
+      "_cachedIn": "94 μs",
+      "_resolvedIn": "94 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -199,17 +199,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2023-01-24T15:19:30.423Z",
-        "component-cached-in": "108 μs",
-        "component-resolved-in": "108 μs"
+        "component-cached-at": "2023-01-24T18:02:31.610Z",
+        "component-cached-in": "94 μs",
+        "component-resolved-in": "94 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-01-24T15:19:30.423Z",
-          "_cachedIn": "56 μs",
-          "_resolvedIn": "56 μs",
+          "_cachedAt": "2023-01-24T18:02:31.610Z",
+          "_cachedIn": "51 μs",
+          "_resolvedIn": "51 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -217,7 +217,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2023-01-24T15:16:58.566Z",
+              "createdAt": "2023-01-24T18:00:07.093Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1402,6 +1402,21 @@
                 "image": "https://armada-alliance.com/assets/ship-420.png",
                 "updatedAt": "2022-02-03T11:04:35.000Z",
                 "filePath": "/en/identities/Hans_SEA.md"
+              },
+              {
+                "id": "Manuel_SNAKE",
+                "language": "en",
+                "slug": "/identities/Manuel_SNAKE",
+                "url": "https://armada-alliance.com/identities/Manuel_SNAKE",
+                "origin": "/identities/Manuel_SNAKE",
+                "title": "SN₳KE Pool",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2023-01-24T16:01:10.000Z",
+                "filePath": "/en/identities/Manuel_SNAKE.md"
               },
               {
                 "id": "Rhys_STOIC",
@@ -2800,6 +2815,28 @@
                 "rank": 0
               },
               {
+                "id": "342350284fd76ba9dbd7fd4ed579b2a2058d5ee558f8872b37817b28",
+                "language": "en",
+                "slug": "/stake-pools/342350284fd76ba9dbd7fd4ed579b2a2058d5ee558f8872b37817b28",
+                "url": "https://armada-alliance.com/stake-pools/342350284fd76ba9dbd7fd4ed579b2a2058d5ee558f8872b37817b28",
+                "origin": "/stake-pools/342350284fd76ba9dbd7fd4ed579b2a2058d5ee558f8872b37817b28",
+                "title": "SN₳KE (SNAKE)",
+                "description": "Pool Margin 0% Until 10M Stake - SNAKE is a Single Stake Pool Running 24/7/365 on Highly Reliables NixOS Servers. Regular Monthly Donations will go to MSF.org once 1M Stake is Reached. Telegram Contact t.me/channel_adasnakepool",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "Manuel_SNAKE",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://asnakep.github.io/repo/Snake-icon_64x64.png",
+                "updatedAt": "2023-01-24T16:27:59.000Z",
+                "filePath": "/en/stake-pools/342350284fd76ba9dbd7fd4ed579b2a2058d5ee558f8872b37817b28.md",
+                "rank": 38
+              },
+              {
                 "id": "351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8",
                 "language": "en",
                 "slug": "/stake-pools/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8",
@@ -3521,6 +3558,14 @@
                 "slug": "/pool-widget/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
                 "template": "PoolWidgetPage",
                 "poolId": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "SN₳KE SNAKE",
+                "slug": "/pool-widget/342350284fd76ba9dbd7fd4ed579b2a2058d5ee558f8872b37817b28",
+                "template": "PoolWidgetPage",
+                "poolId": "342350284fd76ba9dbd7fd4ed579b2a2058d5ee558f8872b37817b28",
                 "hidden": true
               },
               {
@@ -9735,18 +9780,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2023-01-24T15:19:30.423Z",
-            "component-cached-in": "56 μs",
-            "component-resolved-in": "56 μs"
+            "component-cached-at": "2023-01-24T18:02:31.610Z",
+            "component-cached-in": "51 μs",
+            "component-resolved-in": "51 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-01-24T15:19:30.423Z",
-          "_cachedIn": "82 μs",
-          "_resolvedIn": "82 μs",
+          "_cachedAt": "2023-01-24T18:02:31.610Z",
+          "_cachedIn": "70 μs",
+          "_resolvedIn": "70 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9757,17 +9802,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2023-01-24T15:19:30.423Z",
-            "component-cached-in": "82 μs",
-            "component-resolved-in": "82 μs"
+            "component-cached-at": "2023-01-24T18:02:31.610Z",
+            "component-cached-in": "70 μs",
+            "component-resolved-in": "70 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2023-01-24T15:19:30.423Z",
-              "_cachedIn": "26 μs",
-              "_resolvedIn": "26 μs",
+              "_cachedAt": "2023-01-24T18:02:31.610Z",
+              "_cachedIn": "20 μs",
+              "_resolvedIn": "20 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9827,9 +9872,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2023-01-24T15:19:30.423Z",
-                "component-cached-in": "26 μs",
-                "component-resolved-in": "26 μs"
+                "component-cached-at": "2023-01-24T18:02:31.610Z",
+                "component-cached-in": "20 μs",
+                "component-resolved-in": "20 μs"
               },
               "components": {}
             }
@@ -9838,9 +9883,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-01-24T15:19:30.423Z",
-          "_cachedIn": "19 μs",
-          "_resolvedIn": "19 μs",
+          "_cachedAt": "2023-01-24T18:02:31.609Z",
+          "_cachedIn": "20 μs",
+          "_resolvedIn": "20 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9849,9 +9894,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2023-01-24T15:19:30.423Z",
-            "component-cached-in": "19 μs",
-            "component-resolved-in": "19 μs"
+            "component-cached-at": "2023-01-24T18:02:31.609Z",
+            "component-cached-in": "20 μs",
+            "component-resolved-in": "20 μs"
           },
           "components": {}
         }
