@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"ADA 9000 - Dedicated to Cardano 9000\",\"slug\":\"/pool-widget/4f3410f074e7363091a1cc1c21b128ae423d1cce897bd19478e534bb\",\"template\":\"PoolWidgetPage\",\"poolId\":\"4f3410f074e7363091a1cc1c21b128ae423d1cce897bd19478e534bb\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2023-01-25T09:18:21.115Z",
-  "_cachedIn": "213 μs",
-  "_resolvedIn": "213 μs",
+  "_cachedAt": "2023-01-25T12:35:35.614Z",
+  "_cachedIn": "222 μs",
+  "_resolvedIn": "222 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,15 +24,15 @@
         "href": "/stake-pools/4f3410f074e7363091a1cc1c21b128ae423d1cce897bd19478e534bb"
       },
       "description": "Bare-metal SPO. Maintained by a software engineer.",
-      "image": "https://cdn.adapools.org/pool_logo/4f3410f074e7363091a1cc1c21b128ae423d1cce897bd19478e534bb.png",
+      "image": "https://ada9000.io/logo50kb.png",
       "hasImage": true,
       "ticker": "9000",
       "addr": "pool1fu6ppur5uumrpydpeswzrvfg4epr68xw39aar9rcu56tk5ukat3",
       "website": "https://ada9000.io/",
-      "totalStake": "16449589694876",
+      "totalStake": "16449589514503",
       "blocksLifetime": 516,
       "delegators": 74,
-      "saturated": 0.23790212433068456,
+      "saturated": 0.23790214170802582,
       "pledge": "30000000000",
       "pledged": "31216667187",
       "taxRatio": 0.0199,
@@ -100,7 +100,7 @@
             },
             "time_zone": {
               "id": "Europe/London",
-              "current_time": "2023-01-25T09:18:10+00:00",
+              "current_time": "2023-01-25T12:35:26+00:00",
               "gmt_offset": 0,
               "code": "GMT",
               "is_daylight_saving": false
@@ -119,8 +119,33 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "ADA 9000 - Dedicated to Cardano",
+        "description": "Bare-metal SPO. Maintained by a software engineer.",
+        "ticker": "9000",
+        "homepage": "https://ada9000.io/",
+        "extended": "https://ada9000.io/extendedMetadata.json"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://ada9000.io/logo40kb.png",
+          "url_png_logo": "https://ada9000.io/logo50kb.png",
+          "logo": "https://ada9000.io/ada9000fire.svg",
+          "social": {
+            "twitter_handle": "ada9000_",
+            "github_handle": "ada9000"
+          }
+        },
+        "company": {
+          "name": "ada9000"
+        },
+        "about": {
+          "server": "Arm based hardware at home, combined with cloud servers to provide reliable always-online pool infrastructure."
+        },
+        "my-pool-ids": {
+          "0": "4f3410f074e7363091a1cc1c21b128ae423d1cce897bd19478e534bb"
+        }
+      },
       "telegram": "jack7e",
       "twitter": "ada9000_",
       "github": "ada9000",
@@ -130,17 +155,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2023-01-25T09:18:21.115Z",
-    "component-cached-in": "213 μs",
-    "component-resolved-in": "213 μs"
+    "component-cached-at": "2023-01-25T12:35:35.614Z",
+    "component-cached-in": "222 μs",
+    "component-resolved-in": "222 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2023-01-25T09:18:21.115Z",
-      "_cachedIn": "61 μs",
-      "_resolvedIn": "61 μs",
+      "_cachedAt": "2023-01-25T12:35:35.614Z",
+      "_cachedIn": "64 μs",
+      "_resolvedIn": "64 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -149,17 +174,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2023-01-25T09:18:21.115Z",
-        "component-cached-in": "61 μs",
-        "component-resolved-in": "61 μs"
+        "component-cached-at": "2023-01-25T12:35:35.614Z",
+        "component-cached-in": "64 μs",
+        "component-resolved-in": "64 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-01-25T09:18:21.115Z",
-          "_cachedIn": "32 μs",
-          "_resolvedIn": "32 μs",
+          "_cachedAt": "2023-01-25T12:35:35.614Z",
+          "_cachedIn": "35 μs",
+          "_resolvedIn": "35 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -167,7 +192,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2023-01-25T09:15:39.297Z",
+              "createdAt": "2023-01-25T12:33:08.041Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2847,7 +2872,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/4f3410f074e7363091a1cc1c21b128ae423d1cce897bd19478e534bb.png",
+                "image": "https://ada9000.io/logo50kb.png",
                 "updatedAt": "2022-10-05T20:01:39.000Z",
                 "filePath": "/en/stake-pools/4f3410f074e7363091a1cc1c21b128ae423d1cce897bd19478e534bb.md",
                 "rank": 13
@@ -9730,18 +9755,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2023-01-25T09:18:21.115Z",
-            "component-cached-in": "32 μs",
-            "component-resolved-in": "32 μs"
+            "component-cached-at": "2023-01-25T12:35:35.614Z",
+            "component-cached-in": "35 μs",
+            "component-resolved-in": "35 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-01-25T09:18:21.115Z",
-          "_cachedIn": "49 μs",
-          "_resolvedIn": "49 μs",
+          "_cachedAt": "2023-01-25T12:35:35.614Z",
+          "_cachedIn": "51 μs",
+          "_resolvedIn": "51 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9752,17 +9777,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2023-01-25T09:18:21.115Z",
-            "component-cached-in": "49 μs",
-            "component-resolved-in": "49 μs"
+            "component-cached-at": "2023-01-25T12:35:35.614Z",
+            "component-cached-in": "51 μs",
+            "component-resolved-in": "51 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2023-01-25T09:18:21.115Z",
-              "_cachedIn": "17 μs",
-              "_resolvedIn": "17 μs",
+              "_cachedAt": "2023-01-25T12:35:35.614Z",
+              "_cachedIn": "16 μs",
+              "_resolvedIn": "16 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9822,9 +9847,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2023-01-25T09:18:21.115Z",
-                "component-cached-in": "17 μs",
-                "component-resolved-in": "17 μs"
+                "component-cached-at": "2023-01-25T12:35:35.614Z",
+                "component-cached-in": "16 μs",
+                "component-resolved-in": "16 μs"
               },
               "components": {}
             }
@@ -9833,7 +9858,7 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-01-25T09:18:21.115Z",
+          "_cachedAt": "2023-01-25T12:35:35.614Z",
           "_cachedIn": "14 μs",
           "_resolvedIn": "14 μs",
           "id": "Footer",
@@ -9844,7 +9869,7 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2023-01-25T09:18:21.115Z",
+            "component-cached-at": "2023-01-25T12:35:35.614Z",
             "component-cached-in": "14 μs",
             "component-resolved-in": "14 μs"
           },
