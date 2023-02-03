@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"CIEL Stake Pool CIEL\",\"slug\":\"/pool-widget/88021ea76e8b0141feb976cccf0887a9a2385cc58370283c40abf06e\",\"template\":\"PoolWidgetPage\",\"poolId\":\"88021ea76e8b0141feb976cccf0887a9a2385cc58370283c40abf06e\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2023-02-03T15:17:24.675Z",
-  "_cachedIn": "318 μs",
-  "_resolvedIn": "318 μs",
+  "_cachedAt": "2023-02-03T18:20:36.975Z",
+  "_cachedIn": "217 μs",
+  "_resolvedIn": "217 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -32,7 +32,7 @@
       "totalStake": "6669492514",
       "blocksLifetime": 0,
       "delegators": 6,
-      "saturated": 0.00009638780866027383,
+      "saturated": 0.00009638782534481763,
       "pledge": "500000000",
       "pledged": "1021283099",
       "taxRatio": 0,
@@ -108,7 +108,7 @@
             },
             "time_zone": {
               "id": "Asia/Singapore",
-              "current_time": "2023-02-03T23:17:15+08:00",
+              "current_time": "2023-02-04T02:20:28+08:00",
               "gmt_offset": 28800,
               "code": "+08",
               "is_daylight_saving": false
@@ -160,7 +160,7 @@
             },
             "time_zone": {
               "id": "Asia/Tokyo",
-              "current_time": "2023-02-04T00:17:16+09:00",
+              "current_time": "2023-02-04T03:20:28+09:00",
               "gmt_offset": 32400,
               "code": "JST",
               "is_daylight_saving": false
@@ -187,27 +187,38 @@
         "extended": "https://raw.githubusercontent.com/449sabu/CardanoSP/main/extendedMeta.json"
       },
       "extended": {
-        "how-to-implement": "in your meta.json - define *extended* with url to this (json) file - https://raw.githubusercontent.com/cardanians/adapools.org/master/example-meta.json",
+        "verification": "0eb696acc9d4df2b1b2",
+        "how-to-implement": "in your meta.json - define *extended* with url to this (json) file - https://raw.githubusercontent.com/cardanians/cexplorer.io/main/examples/meta.json",
         "info": {
           "url_png_icon_64x64": "https://raw.githubusercontent.com/449sabu/CardanoSP/main/c.png",
+          "url_png_logo": "",
           "location": "Tokyo, Japan",
           "social": {
             "twitter_handle": "CIEL_Stake_Pool",
             "telegram_handle": "",
+            "facebook_handle": "",
             "youtube_handle": "channel/UCogyT3gaLf5v3tXxJ1y1ZNw",
-            "discord_handle": "Yoshiki [CIEL]#8135",
-            "github_handle": "449sabu"
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": "449sabu",
+            "patreon_handle": "",
+            "linkedin_handle": "",
+            "ada_handle": ""
+          },
+          "company": {
+            "name": "",
+            "addr": "",
+            "city": "",
+            "country": "",
+            "company_id": "",
+            "vat_id": ""
           },
           "about": {
-            "me": "...",
-            "server": "2x  4 vCPU 16GB of RAM and a 320GB SSD",
-            "verification string": "deddbf0da40b4c8eea"
+            "me": "",
+            "server": "2x  4vCPU 16GB of RAM and a 500GB SSD",
+            "company": ""
           }
-        },
-        "my-pool-ids": {
-          "0": "88021ea76e8b0141feb976cccf0887a9a2385cc58370283c40abf06e"
-        },
-        "vrf-app": "0eb696acc9d4df2b1b2"
+        }
       },
       "telegram": "Yoshiki",
       "twitter": "CIEL_Stake_Pool",
@@ -220,17 +231,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2023-02-03T15:17:24.675Z",
-    "component-cached-in": "318 μs",
-    "component-resolved-in": "318 μs"
+    "component-cached-at": "2023-02-03T18:20:36.975Z",
+    "component-cached-in": "217 μs",
+    "component-resolved-in": "217 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2023-02-03T15:17:24.675Z",
-      "_cachedIn": "108 μs",
-      "_resolvedIn": "108 μs",
+      "_cachedAt": "2023-02-03T18:20:36.975Z",
+      "_cachedIn": "66 μs",
+      "_resolvedIn": "66 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -239,17 +250,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2023-02-03T15:17:24.675Z",
-        "component-cached-in": "108 μs",
-        "component-resolved-in": "108 μs"
+        "component-cached-at": "2023-02-03T18:20:36.975Z",
+        "component-cached-in": "66 μs",
+        "component-resolved-in": "66 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-02-03T15:17:24.675Z",
-          "_cachedIn": "65 μs",
-          "_resolvedIn": "65 μs",
+          "_cachedAt": "2023-02-03T18:20:36.975Z",
+          "_cachedIn": "34 μs",
+          "_resolvedIn": "34 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -257,7 +268,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2023-02-03T15:17:03.316Z",
+              "createdAt": "2023-02-03T18:20:17.731Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2937,7 +2948,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://ada9000.io/logo50kb.png",
+                "image": "https://cdn.adapools.org/pool_logo/4f3410f074e7363091a1cc1c21b128ae423d1cce897bd19478e534bb.png",
                 "updatedAt": "2022-10-05T20:01:39.000Z",
                 "filePath": "/en/stake-pools/4f3410f074e7363091a1cc1c21b128ae423d1cce897bd19478e534bb.md",
                 "rank": 13
@@ -9820,18 +9831,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2023-02-03T15:17:24.675Z",
-            "component-cached-in": "65 μs",
-            "component-resolved-in": "65 μs"
+            "component-cached-at": "2023-02-03T18:20:36.975Z",
+            "component-cached-in": "34 μs",
+            "component-resolved-in": "34 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-02-03T15:17:24.675Z",
-          "_cachedIn": "84 μs",
-          "_resolvedIn": "84 μs",
+          "_cachedAt": "2023-02-03T18:20:36.975Z",
+          "_cachedIn": "53 μs",
+          "_resolvedIn": "53 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9842,17 +9853,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2023-02-03T15:17:24.675Z",
-            "component-cached-in": "84 μs",
-            "component-resolved-in": "84 μs"
+            "component-cached-at": "2023-02-03T18:20:36.975Z",
+            "component-cached-in": "53 μs",
+            "component-resolved-in": "53 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2023-02-03T15:17:24.675Z",
-              "_cachedIn": "20 μs",
-              "_resolvedIn": "20 μs",
+              "_cachedAt": "2023-02-03T18:20:36.975Z",
+              "_cachedIn": "14 μs",
+              "_resolvedIn": "14 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9912,9 +9923,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2023-02-03T15:17:24.675Z",
-                "component-cached-in": "20 μs",
-                "component-resolved-in": "20 μs"
+                "component-cached-at": "2023-02-03T18:20:36.975Z",
+                "component-cached-in": "14 μs",
+                "component-resolved-in": "14 μs"
               },
               "components": {}
             }
@@ -9923,9 +9934,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-02-03T15:17:24.675Z",
-          "_cachedIn": "24 μs",
-          "_resolvedIn": "24 μs",
+          "_cachedAt": "2023-02-03T18:20:36.975Z",
+          "_cachedIn": "14 μs",
+          "_resolvedIn": "14 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9934,9 +9945,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2023-02-03T15:17:24.675Z",
-            "component-cached-in": "24 μs",
-            "component-resolved-in": "24 μs"
+            "component-cached-at": "2023-02-03T18:20:36.975Z",
+            "component-cached-in": "14 μs",
+            "component-resolved-in": "14 μs"
           },
           "components": {}
         }
