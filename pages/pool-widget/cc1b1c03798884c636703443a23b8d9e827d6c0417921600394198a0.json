@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"ADASRN SRN\",\"slug\":\"/pool-widget/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0\",\"template\":\"PoolWidgetPage\",\"poolId\":\"cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2023-02-05T21:13:55.915Z",
-  "_cachedIn": "243 μs",
-  "_resolvedIn": "243 μs",
+  "_cachedAt": "2023-02-06T01:20:35.469Z",
+  "_cachedIn": "610 μs",
+  "_resolvedIn": "610 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -32,8 +32,8 @@
       "totalStake": "434966355432",
       "blocksLifetime": 83,
       "delegators": 23,
-      "saturated": 0.006283883847768468,
-      "pledge": "10000000000",
+      "saturated": 0.0062838848406366575,
+      "pledge": "12000000000",
       "pledged": "14017212018",
       "taxRatio": 0.01,
       "taxFix": "340000000",
@@ -136,9 +136,9 @@
       ],
       "metadata": {
         "name": "ADASRN",
-        "description": "Growing wealth together. We keep costs low for the community with a 1% margin.",
+        "description": "Growing wealth together. Keeping fees low with a 1% margin.",
         "ticker": "SRN",
-        "homepage": "https://www.adasrn.com",
+        "homepage": "http://www.adasrn.com",
         "extended": "https://sayshar.github.io/srn-mainnet.extended-metadata.json"
       },
       "extended": {
@@ -164,8 +164,8 @@
             "vat_id": ""
           },
           "about": {
-            "me": "We are Malaysians who want to participate in the Cardano network as we believe DeFi is the future. We are glad to be part of the 100 pools chosen for the second cohort of 2021 to receive the IOG delegation fund. This would help us attract more delegators as we can now prove the capability of our pool operations. We are donating some of our proceedings to charity once we have received enough delegation to become profitable. Follow our Twitter page to chat and/or keep up with us.",
-            "server": "We have 3 separate bare metal nodes which comprise of 2 Relay nodes and 1 Block producing node. As fans of the little Raspberry Pi, 2 of our bare metal nodes (1 relay and 1 block producer), are run from Raspberry Pi 4B 8GB units with binaries built from source for the aarch64 architecture. For redundancy, we have an additional AMD64 Linux PC which can take the place of either the block producer or relay when performing extended maintenance. Our OS of choice is Ubuntu 20.04 LTS (for the relays) and AlpineOS 3.13.5 (for the block producer).",
+            "me": "We are Malaysians who want to participate in the Cardano network as we believe DeFi is the future. We are glad to be part of the 100 pools chosen for the second cohort of 2021 to receive the IOG delegation fund. We are grateful to IOG in recognising our contribution to the Cardano ecosystem.",
+            "server": "We have 4 bare metal nodes and 1 Oracle cloud server relay node. The bare metal nodes comprise of 3 relay nodes and 1 block producing node. As fans of the ARM SBCs, 2 of our bare metal relay nodes are run from Raspberry Pi 4B 8GB units whilst our block producer is powered by the Firefly ROC-RK3588S-PC with binaries built from source for the aarch64 architecture. Our final bare metal relay is an AMD64 Linux PC.",
             "company": ""
           },
           "rss": "http(s) url to valid RSS feed"
@@ -191,17 +191,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2023-02-05T21:13:55.915Z",
-    "component-cached-in": "243 μs",
-    "component-resolved-in": "243 μs"
+    "component-cached-at": "2023-02-06T01:20:35.469Z",
+    "component-cached-in": "610 μs",
+    "component-resolved-in": "610 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2023-02-05T21:13:55.915Z",
-      "_cachedIn": "80 μs",
-      "_resolvedIn": "80 μs",
+      "_cachedAt": "2023-02-06T01:20:35.469Z",
+      "_cachedIn": "236 μs",
+      "_resolvedIn": "236 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -210,17 +210,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2023-02-05T21:13:55.915Z",
-        "component-cached-in": "80 μs",
-        "component-resolved-in": "80 μs"
+        "component-cached-at": "2023-02-06T01:20:35.469Z",
+        "component-cached-in": "236 μs",
+        "component-resolved-in": "236 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-02-05T21:13:55.915Z",
-          "_cachedIn": "46 μs",
-          "_resolvedIn": "46 μs",
+          "_cachedAt": "2023-02-06T01:20:35.469Z",
+          "_cachedIn": "79 μs",
+          "_resolvedIn": "79 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -228,7 +228,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2023-02-05T21:13:20.669Z",
+              "createdAt": "2023-02-06T01:20:14.745Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -9791,18 +9791,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2023-02-05T21:13:55.915Z",
-            "component-cached-in": "46 μs",
-            "component-resolved-in": "46 μs"
+            "component-cached-at": "2023-02-06T01:20:35.469Z",
+            "component-cached-in": "79 μs",
+            "component-resolved-in": "79 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-02-05T21:13:55.915Z",
-          "_cachedIn": "62 μs",
-          "_resolvedIn": "62 μs",
+          "_cachedAt": "2023-02-06T01:20:35.469Z",
+          "_cachedIn": "207 μs",
+          "_resolvedIn": "207 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9813,17 +9813,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2023-02-05T21:13:55.915Z",
-            "component-cached-in": "62 μs",
-            "component-resolved-in": "62 μs"
+            "component-cached-at": "2023-02-06T01:20:35.469Z",
+            "component-cached-in": "207 μs",
+            "component-resolved-in": "207 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2023-02-05T21:13:55.915Z",
-              "_cachedIn": "18 μs",
-              "_resolvedIn": "18 μs",
+              "_cachedAt": "2023-02-06T01:20:35.469Z",
+              "_cachedIn": "31 μs",
+              "_resolvedIn": "31 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9883,9 +9883,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2023-02-05T21:13:55.915Z",
-                "component-cached-in": "18 μs",
-                "component-resolved-in": "18 μs"
+                "component-cached-at": "2023-02-06T01:20:35.469Z",
+                "component-cached-in": "31 μs",
+                "component-resolved-in": "31 μs"
               },
               "components": {}
             }
@@ -9894,9 +9894,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-02-05T21:13:55.915Z",
-          "_cachedIn": "16 μs",
-          "_resolvedIn": "16 μs",
+          "_cachedAt": "2023-02-06T01:20:35.469Z",
+          "_cachedIn": "25 μs",
+          "_resolvedIn": "25 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9905,9 +9905,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2023-02-05T21:13:55.915Z",
-            "component-cached-in": "16 μs",
-            "component-resolved-in": "16 μs"
+            "component-cached-at": "2023-02-06T01:20:35.469Z",
+            "component-cached-in": "25 μs",
+            "component-resolved-in": "25 μs"
           },
           "components": {}
         }
