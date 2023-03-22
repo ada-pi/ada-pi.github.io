@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Siberia SBR\",\"slug\":\"/pool-widget/1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed\",\"template\":\"PoolWidgetPage\",\"poolId\":\"1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2023-03-22T09:17:46.800Z",
-  "_cachedIn": "249 μs",
-  "_resolvedIn": "249 μs",
+  "_cachedAt": "2023-03-22T12:33:12.918Z",
+  "_cachedIn": "318 μs",
+  "_resolvedIn": "318 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,7 +24,7 @@
         "href": "/stake-pools/1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed"
       },
       "description": "Eco-pool from Russia with Love",
-      "image": "https://cdn.adapools.org/pool_logo/1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed.png",
+      "image": "https://raw.githubusercontent.com/siberiapool/siberiapool.github.io/main/logo_925x885.jpg",
       "hasImage": true,
       "ticker": "SBR",
       "addr": "pool1zst2k3wnmtq69vqzm086q9m7v7dn3gpsu9fgxy2vasew6l8nlt0",
@@ -32,7 +32,7 @@
       "totalStake": "1097230020",
       "blocksLifetime": 0,
       "delegators": 1,
-      "saturated": 0.000015801506704487623,
+      "saturated": 0.000015801508016151156,
       "pledge": "1000000000",
       "pledged": "1097230020",
       "taxRatio": 0,
@@ -133,8 +133,35 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "Siberia",
+        "description": "Eco-pool from Russia with Love",
+        "ticker": "SBR",
+        "homepage": "https://siberiapool.github.io",
+        "extended": "https://raw.githubusercontent.com/siberiapool/siberiapool.github.io/main/poolExtended.json"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://raw.githubusercontent.com/siberiapool/siberiapool.github.io/main/logo_64x64.jpg",
+          "url_png_logo": "https://raw.githubusercontent.com/siberiapool/siberiapool.github.io/main/logo_925x885.jpg",
+          "location": "Moscow, Russia",
+          "social": {
+            "telegram_handle": "siberiapool",
+            "youtube_handle": "channel/UCl-RSzsnsaYdOAVX48sKkpA",
+            "github_handle": "zella"
+          },
+          "company": {
+            "name": "Siberia pool"
+          },
+          "about": {
+            "me": "Single pool operator from Russia.",
+            "server": "Low power ARM based pool located in Oracle Cloud, Europe."
+          }
+        },
+        "my-pool-ids": {
+          "0": "1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed"
+        }
+      },
       "telegram": "siberiapool",
       "github": "zella",
       "youtube": "channel/UCl-RSzsnsaYdOAVX48sKkpA",
@@ -144,17 +171,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2023-03-22T09:17:46.800Z",
-    "component-cached-in": "249 μs",
-    "component-resolved-in": "249 μs"
+    "component-cached-at": "2023-03-22T12:33:12.918Z",
+    "component-cached-in": "318 μs",
+    "component-resolved-in": "318 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2023-03-22T09:17:46.800Z",
-      "_cachedIn": "69 μs",
-      "_resolvedIn": "69 μs",
+      "_cachedAt": "2023-03-22T12:33:12.918Z",
+      "_cachedIn": "94 μs",
+      "_resolvedIn": "94 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -163,17 +190,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2023-03-22T09:17:46.800Z",
-        "component-cached-in": "69 μs",
-        "component-resolved-in": "69 μs"
+        "component-cached-at": "2023-03-22T12:33:12.918Z",
+        "component-cached-in": "94 μs",
+        "component-resolved-in": "94 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-03-22T09:17:46.800Z",
-          "_cachedIn": "40 μs",
-          "_resolvedIn": "40 μs",
+          "_cachedAt": "2023-03-22T12:33:12.917Z",
+          "_cachedIn": "48 μs",
+          "_resolvedIn": "48 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -181,7 +208,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2023-03-22T09:15:22.221Z",
+              "createdAt": "2023-03-22T12:30:40.855Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2568,7 +2595,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed.png",
+                "image": "https://raw.githubusercontent.com/siberiapool/siberiapool.github.io/main/logo_925x885.jpg",
                 "updatedAt": "2021-09-09T15:26:19.000Z",
                 "filePath": "/en/stake-pools/1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed.md",
                 "rank": 25
@@ -9744,18 +9771,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2023-03-22T09:17:46.800Z",
-            "component-cached-in": "40 μs",
-            "component-resolved-in": "40 μs"
+            "component-cached-at": "2023-03-22T12:33:12.917Z",
+            "component-cached-in": "48 μs",
+            "component-resolved-in": "48 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-03-22T09:17:46.800Z",
-          "_cachedIn": "54 μs",
-          "_resolvedIn": "54 μs",
+          "_cachedAt": "2023-03-22T12:33:12.918Z",
+          "_cachedIn": "76 μs",
+          "_resolvedIn": "76 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9766,17 +9793,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2023-03-22T09:17:46.800Z",
-            "component-cached-in": "54 μs",
-            "component-resolved-in": "54 μs"
+            "component-cached-at": "2023-03-22T12:33:12.918Z",
+            "component-cached-in": "76 μs",
+            "component-resolved-in": "76 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2023-03-22T09:17:46.800Z",
-              "_cachedIn": "14 μs",
-              "_resolvedIn": "14 μs",
+              "_cachedAt": "2023-03-22T12:33:12.918Z",
+              "_cachedIn": "27 μs",
+              "_resolvedIn": "27 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9836,9 +9863,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2023-03-22T09:17:46.800Z",
-                "component-cached-in": "14 μs",
-                "component-resolved-in": "14 μs"
+                "component-cached-at": "2023-03-22T12:33:12.918Z",
+                "component-cached-in": "27 μs",
+                "component-resolved-in": "27 μs"
               },
               "components": {}
             }
@@ -9847,9 +9874,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-03-22T09:17:46.800Z",
-          "_cachedIn": "18 μs",
-          "_resolvedIn": "18 μs",
+          "_cachedAt": "2023-03-22T12:33:12.917Z",
+          "_cachedIn": "20 μs",
+          "_resolvedIn": "20 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9858,9 +9885,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2023-03-22T09:17:46.800Z",
-            "component-cached-in": "18 μs",
-            "component-resolved-in": "18 μs"
+            "component-cached-at": "2023-03-22T12:33:12.917Z",
+            "component-cached-in": "20 μs",
+            "component-resolved-in": "20 μs"
           },
           "components": {}
         }
