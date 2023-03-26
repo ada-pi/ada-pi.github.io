@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"ZenPool ZAZEN\",\"slug\":\"/pool-widget/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a\",\"template\":\"PoolWidgetPage\",\"poolId\":\"4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2023-03-26T01:22:51.236Z",
-  "_cachedIn": "242 μs",
-  "_resolvedIn": "242 μs",
+  "_cachedAt": "2023-03-26T06:19:20.527Z",
+  "_cachedIn": "247 μs",
+  "_resolvedIn": "247 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,7 +24,7 @@
         "href": "/stake-pools/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a"
       },
       "description": "A small-scale Cardano pool for friends and family",
-      "image": "https://cdn.adapools.org/pool_logo/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a.png",
+      "image": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/3f97391f669120a5ffcfba7c201833d6fef33d35/static/enso-small.png",
       "hasImage": true,
       "ticker": "ZAZEN",
       "addr": "pool1fa0ydxjq23eq3nucw6ek46dj8p6vxq4t32ex822jhwhx5fyvzze",
@@ -32,7 +32,7 @@
       "totalStake": "910342644",
       "blocksLifetime": 6,
       "delegators": 7,
-      "saturated": 0.000013110119331886073,
+      "saturated": 0.00001311012029698687,
       "pledge": "18000000000",
       "pledged": "0",
       "taxRatio": 0.01,
@@ -87,8 +87,45 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "ZenPool",
+        "description": "A small-scale Cardano pool for friends and family",
+        "ticker": "ZAZEN",
+        "homepage": "http://zenen.space",
+        "extended": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/master/extended-poolData.json"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/3f97391f669120a5ffcfba7c201833d6fef33d35/static/enso-icon.png",
+          "url_png_logo": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/3f97391f669120a5ffcfba7c201833d6fef33d35/static/enso-small.png",
+          "location": "Victoria, BC",
+          "social": {
+            "twitter_handle": "",
+            "telegram_handle": "zenent",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": "zenentreadwell"
+          },
+          "company": {
+            "name": "Zazen Hosting",
+            "addr": "",
+            "city": "Victoria",
+            "country": "Canada",
+            "company_id": "",
+            "vat_id": ""
+          },
+          "about": {
+            "me": "Web Developer with a huge interest in riding the decentralisation wave",
+            "server": "Raspberry Pi Hosted at my Home in Victoria",
+            "company": ""
+          }
+        },
+        "my-pool-ids": {
+          "0": "4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a"
+        }
+      },
       "telegram": "zenent",
       "github": "zenentreadwell",
       "qualityScore": 50
@@ -97,17 +134,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2023-03-26T01:22:51.236Z",
-    "component-cached-in": "242 μs",
-    "component-resolved-in": "242 μs"
+    "component-cached-at": "2023-03-26T06:19:20.527Z",
+    "component-cached-in": "247 μs",
+    "component-resolved-in": "247 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2023-03-26T01:22:51.236Z",
-      "_cachedIn": "73 μs",
-      "_resolvedIn": "73 μs",
+      "_cachedAt": "2023-03-26T06:19:20.527Z",
+      "_cachedIn": "62 μs",
+      "_resolvedIn": "62 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -116,17 +153,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2023-03-26T01:22:51.236Z",
-        "component-cached-in": "73 μs",
-        "component-resolved-in": "73 μs"
+        "component-cached-at": "2023-03-26T06:19:20.527Z",
+        "component-cached-in": "62 μs",
+        "component-resolved-in": "62 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-03-26T01:22:51.236Z",
-          "_cachedIn": "41 μs",
-          "_resolvedIn": "41 μs",
+          "_cachedAt": "2023-03-26T06:19:20.527Z",
+          "_cachedIn": "34 μs",
+          "_resolvedIn": "34 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -134,7 +171,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2023-03-26T01:22:28.788Z",
+              "createdAt": "2023-03-26T06:18:58.389Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2836,7 +2873,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a.png",
+                "image": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/3f97391f669120a5ffcfba7c201833d6fef33d35/static/enso-small.png",
                 "updatedAt": "2021-07-28T12:47:53.000Z",
                 "filePath": "/en/stake-pools/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a.md",
                 "rank": 50
@@ -3196,7 +3233,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.png",
+                "image": "https://piada.io/images/piada-logo-full.png",
                 "updatedAt": "2023-03-01T22:26:56.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md",
                 "rank": 0
@@ -9697,18 +9734,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2023-03-26T01:22:51.236Z",
-            "component-cached-in": "41 μs",
-            "component-resolved-in": "41 μs"
+            "component-cached-at": "2023-03-26T06:19:20.527Z",
+            "component-cached-in": "34 μs",
+            "component-resolved-in": "34 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-03-26T01:22:51.236Z",
-          "_cachedIn": "56 μs",
-          "_resolvedIn": "56 μs",
+          "_cachedAt": "2023-03-26T06:19:20.527Z",
+          "_cachedIn": "50 μs",
+          "_resolvedIn": "50 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9719,17 +9756,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2023-03-26T01:22:51.236Z",
-            "component-cached-in": "56 μs",
-            "component-resolved-in": "56 μs"
+            "component-cached-at": "2023-03-26T06:19:20.527Z",
+            "component-cached-in": "50 μs",
+            "component-resolved-in": "50 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2023-03-26T01:22:51.236Z",
-              "_cachedIn": "16 μs",
-              "_resolvedIn": "16 μs",
+              "_cachedAt": "2023-03-26T06:19:20.527Z",
+              "_cachedIn": "14 μs",
+              "_resolvedIn": "14 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9789,9 +9826,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2023-03-26T01:22:51.236Z",
-                "component-cached-in": "16 μs",
-                "component-resolved-in": "16 μs"
+                "component-cached-at": "2023-03-26T06:19:20.527Z",
+                "component-cached-in": "14 μs",
+                "component-resolved-in": "14 μs"
               },
               "components": {}
             }
@@ -9800,9 +9837,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-03-26T01:22:51.236Z",
-          "_cachedIn": "16 μs",
-          "_resolvedIn": "16 μs",
+          "_cachedAt": "2023-03-26T06:19:20.527Z",
+          "_cachedIn": "15 μs",
+          "_resolvedIn": "15 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9811,9 +9848,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2023-03-26T01:22:51.236Z",
-            "component-cached-in": "16 μs",
-            "component-resolved-in": "16 μs"
+            "component-cached-at": "2023-03-26T06:19:20.527Z",
+            "component-cached-in": "15 μs",
+            "component-resolved-in": "15 μs"
           },
           "components": {}
         }
