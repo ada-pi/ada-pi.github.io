@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Berry BERRY\",\"slug\":\"/pool-widget/2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091\",\"template\":\"PoolWidgetPage\",\"poolId\":\"2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2023-04-25T01:18:57.936Z",
-  "_cachedIn": "572 μs",
-  "_resolvedIn": "572 μs",
+  "_cachedAt": "2023-04-25T06:22:07.980Z",
+  "_cachedIn": "226 μs",
+  "_resolvedIn": "226 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,15 +24,15 @@
         "href": "/stake-pools/2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091"
       },
       "description": "Decentralizing Cardano in the most beautiful way - Let's shape the future together!",
-      "image": "https://cdn.adapools.org/pool_logo/2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091.png",
+      "image": "https://github.com/alessandrokonrad/Pi-Pool/raw/master/images/logo.png",
       "hasImage": true,
       "ticker": "BERRY",
       "addr": "pool19f6guwy97mmnxg9dz65rxyj8hq07qxud886hamyu4fgfz7dj9gl",
       "website": "https://pipool.online",
-      "totalStake": "45740826759386",
-      "blocksLifetime": 3810,
+      "totalStake": "45602799173418",
+      "blocksLifetime": 3812,
       "delegators": 22568,
-      "saturated": 0.6574102671284604,
+      "saturated": 0.6554265185111927,
       "pledge": "450000000000",
       "pledged": "555304319995",
       "taxRatio": 0.015,
@@ -240,8 +240,35 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "Berry",
+        "ticker": "BERRY",
+        "description": "Decentralizing Cardano in the most beautiful way - Let's shape the future together!",
+        "homepage": "https://pipool.online",
+        "extended": "https://github.com/alessandrokonrad/Pi-Pool/raw/master/meta/extended_poolmeta.json"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://github.com/alessandrokonrad/Pi-Pool/raw/master/images/logo64_64.png",
+          "url_png_logo": "https://github.com/alessandrokonrad/Pi-Pool/raw/master/images/logo.png",
+          "location": "Munich, Germany",
+          "social": {
+            "twitter_handle": "berry_ales",
+            "telegram_handle": "berry_pool",
+            "github_handle": "alessandrokonrad"
+          },
+          "about": {
+            "me": "My name is Alessandro, I'm a single pool operator and a computer science student from Germany.",
+            "server": "Berry is the first Stake Pool on Raspberry Pis and it's operational since the first day of Shelley. Here to truly decentralize Cardano in a power efficient way!"
+          }
+        },
+        "my-pool-ids": {
+          "0": "2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091"
+        },
+        "telegram-admin-handle": {
+          "0": "berry_ales"
+        }
+      },
       "telegram": "berry_pool",
       "twitter": "berry_ales",
       "github": "alessandrokonrad",
@@ -251,17 +278,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2023-04-25T01:18:57.936Z",
-    "component-cached-in": "572 μs",
-    "component-resolved-in": "572 μs"
+    "component-cached-at": "2023-04-25T06:22:07.980Z",
+    "component-cached-in": "226 μs",
+    "component-resolved-in": "226 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2023-04-25T01:18:57.936Z",
-      "_cachedIn": "79 μs",
-      "_resolvedIn": "79 μs",
+      "_cachedAt": "2023-04-25T06:22:07.980Z",
+      "_cachedIn": "62 μs",
+      "_resolvedIn": "62 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -270,17 +297,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2023-04-25T01:18:57.936Z",
-        "component-cached-in": "79 μs",
-        "component-resolved-in": "79 μs"
+        "component-cached-at": "2023-04-25T06:22:07.980Z",
+        "component-cached-in": "62 μs",
+        "component-resolved-in": "62 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-04-25T01:18:57.936Z",
-          "_cachedIn": "44 μs",
-          "_resolvedIn": "44 μs",
+          "_cachedAt": "2023-04-25T06:22:07.980Z",
+          "_cachedIn": "35 μs",
+          "_resolvedIn": "35 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -288,7 +315,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2023-04-25T01:16:27.898Z",
+              "createdAt": "2023-04-25T06:19:42.751Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2810,7 +2837,7 @@
                     "id": "pascal-berry"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091.png",
+                "image": "https://github.com/alessandrokonrad/Pi-Pool/raw/master/images/logo.png",
                 "updatedAt": "2021-07-31T17:40:59.000Z",
                 "filePath": "/en/stake-pools/2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091.md",
                 "rank": 0
@@ -2858,7 +2885,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36.png",
+                "image": "https://github.com/fisch192/southtyrolpool.github.io/blob/main/design1.png?raw=true",
                 "updatedAt": "2021-08-01T18:14:25.000Z",
                 "filePath": "/en/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36.md",
                 "rank": 0
@@ -2968,7 +2995,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/4f3410f074e7363091a1cc1c21b128ae423d1cce897bd19478e534bb.png",
+                "image": "https://ada9000.io/logo50kb.png",
                 "updatedAt": "2022-10-05T20:01:39.000Z",
                 "filePath": "/en/stake-pools/4f3410f074e7363091a1cc1c21b128ae423d1cce897bd19478e534bb.md",
                 "rank": 13
@@ -9821,18 +9848,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2023-04-25T01:18:57.936Z",
-            "component-cached-in": "44 μs",
-            "component-resolved-in": "44 μs"
+            "component-cached-at": "2023-04-25T06:22:07.980Z",
+            "component-cached-in": "35 μs",
+            "component-resolved-in": "35 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-04-25T01:18:57.936Z",
-          "_cachedIn": "60 μs",
-          "_resolvedIn": "60 μs",
+          "_cachedAt": "2023-04-25T06:22:07.980Z",
+          "_cachedIn": "49 μs",
+          "_resolvedIn": "49 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9843,17 +9870,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2023-04-25T01:18:57.936Z",
-            "component-cached-in": "60 μs",
-            "component-resolved-in": "60 μs"
+            "component-cached-at": "2023-04-25T06:22:07.980Z",
+            "component-cached-in": "49 μs",
+            "component-resolved-in": "49 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2023-04-25T01:18:57.936Z",
-              "_cachedIn": "16 μs",
-              "_resolvedIn": "16 μs",
+              "_cachedAt": "2023-04-25T06:22:07.980Z",
+              "_cachedIn": "14 μs",
+              "_resolvedIn": "14 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9913,9 +9940,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2023-04-25T01:18:57.936Z",
-                "component-cached-in": "16 μs",
-                "component-resolved-in": "16 μs"
+                "component-cached-at": "2023-04-25T06:22:07.980Z",
+                "component-cached-in": "14 μs",
+                "component-resolved-in": "14 μs"
               },
               "components": {}
             }
@@ -9924,9 +9951,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-04-25T01:18:57.936Z",
-          "_cachedIn": "17 μs",
-          "_resolvedIn": "17 μs",
+          "_cachedAt": "2023-04-25T06:22:07.980Z",
+          "_cachedIn": "15 μs",
+          "_resolvedIn": "15 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9935,9 +9962,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2023-04-25T01:18:57.936Z",
-            "component-cached-in": "17 μs",
-            "component-resolved-in": "17 μs"
+            "component-cached-at": "2023-04-25T06:22:07.980Z",
+            "component-cached-in": "15 μs",
+            "component-resolved-in": "15 μs"
           },
           "components": {}
         }
