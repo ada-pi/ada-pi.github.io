@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Southtyrol SUDTI\",\"slug\":\"/pool-widget/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36\",\"template\":\"PoolWidgetPage\",\"poolId\":\"2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2023-05-03T01:18:32.885Z",
-  "_cachedIn": "261 μs",
-  "_resolvedIn": "261 μs",
+  "_cachedAt": "2023-05-03T06:21:23.418Z",
+  "_cachedIn": "500 μs",
+  "_resolvedIn": "500 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,7 +24,7 @@
         "href": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36"
       },
       "description": "A stable pool from Southtyrol.",
-      "image": "https://cdn.adapools.org/pool_logo/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36.png",
+      "image": "https://github.com/fisch192/southtyrolpool.github.io/blob/main/design1.png?raw=true",
       "hasImage": true,
       "ticker": "SUDTI",
       "addr": "pool19k4azhj8tye5wwy5pfj7q6m938m8fg5nglds5dkhtfwnvcg3s0k",
@@ -32,7 +32,7 @@
       "totalStake": "1087823041314",
       "blocksLifetime": 98,
       "delegators": 81,
-      "saturated": 0.015624731907420896,
+      "saturated": 0.01562473391752431,
       "pledge": "25000000000",
       "pledged": "30269812910",
       "taxRatio": 0,
@@ -136,8 +136,49 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "Southtyrol",
+        "description": "A stable pool from Southtyrol.",
+        "ticker": "SUDTI",
+        "homepage": "https://southtyrolpool.it",
+        "extended": "https://raw.githubusercontent.com/fisch192/southtyrolpool.github.io/main/extended.json"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://github.com/fisch192/southtyrolpool.github.io/blob/main/iphone-40x40@2x.png?raw=true",
+          "url_png_logo": "https://github.com/fisch192/southtyrolpool.github.io/blob/main/design1.png?raw=true",
+          "location": "Bolzano | South Tyrol | Italy",
+          "social": {
+            "twitter_handle": "southtyrolpool",
+            "telegram_handle": "southtyrolpool",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": ""
+          },
+          "company": {
+            "name": "Southtyrolpool",
+            "addr": "",
+            "city": "Bolzano | South Tyrol | Italy",
+            "country": "IT",
+            "company_id": "",
+            "vat_id": ""
+          },
+          "about": {
+            "me": "Single pool operater from Southtyrol, North of Italy. Trying to bring the cardano World to Southtyrol. I´m happy to be part of the Cardano network and to support the community",
+            "server": "Raspberry Pi 4 powered with green energy.Our equipment currently consists of 1 Block Producer and 2 Relay Nodes.We can guarantee an excellent internet connection. BARE METAL SERVERS ",
+            "company": ""
+          },
+          "my-pool-ids": {
+            "0": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
+            "1": ""
+          },
+          "telegram-admin-handle": {
+            "0": "southtyrolpool"
+          }
+        }
+      },
       "telegram": "southtyrolpool",
       "twitter": "southtyrolpool",
       "qualityScore": 100
@@ -146,17 +187,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2023-05-03T01:18:32.885Z",
-    "component-cached-in": "261 μs",
-    "component-resolved-in": "261 μs"
+    "component-cached-at": "2023-05-03T06:21:23.418Z",
+    "component-cached-in": "500 μs",
+    "component-resolved-in": "500 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2023-05-03T01:18:32.885Z",
-      "_cachedIn": "85 μs",
-      "_resolvedIn": "85 μs",
+      "_cachedAt": "2023-05-03T06:21:23.418Z",
+      "_cachedIn": "177 μs",
+      "_resolvedIn": "177 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -165,17 +206,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2023-05-03T01:18:32.885Z",
-        "component-cached-in": "85 μs",
-        "component-resolved-in": "85 μs"
+        "component-cached-at": "2023-05-03T06:21:23.418Z",
+        "component-cached-in": "177 μs",
+        "component-resolved-in": "177 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-05-03T01:18:32.885Z",
-          "_cachedIn": "49 μs",
-          "_resolvedIn": "49 μs",
+          "_cachedAt": "2023-05-03T06:21:23.418Z",
+          "_cachedIn": "94 μs",
+          "_resolvedIn": "94 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -183,7 +224,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2023-05-03T01:16:05.662Z",
+              "createdAt": "2023-05-03T06:18:57.354Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2570,7 +2611,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://raw.githubusercontent.com/siberiapool/siberiapool.github.io/main/logo_925x885.jpg",
+                "image": "https://cdn.adapools.org/pool_logo/1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed.png",
                 "updatedAt": "2021-09-09T15:26:19.000Z",
                 "filePath": "/en/stake-pools/1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed.md",
                 "rank": 25
@@ -2658,7 +2699,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://raw.githubusercontent.com/Zebra-Danio/meta/main/logo.png",
+                "image": "https://cdn.adapools.org/pool_logo/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d.png",
                 "updatedAt": "2021-08-03T18:54:14.000Z",
                 "filePath": "/en/stake-pools/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d.md",
                 "rank": 0
@@ -2753,7 +2794,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36.png",
+                "image": "https://github.com/fisch192/southtyrolpool.github.io/blob/main/design1.png?raw=true",
                 "updatedAt": "2021-08-01T18:14:25.000Z",
                 "filePath": "/en/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36.md",
                 "rank": 0
@@ -9716,18 +9757,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2023-05-03T01:18:32.885Z",
-            "component-cached-in": "49 μs",
-            "component-resolved-in": "49 μs"
+            "component-cached-at": "2023-05-03T06:21:23.418Z",
+            "component-cached-in": "94 μs",
+            "component-resolved-in": "94 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-05-03T01:18:32.885Z",
-          "_cachedIn": "67 μs",
-          "_resolvedIn": "67 μs",
+          "_cachedAt": "2023-05-03T06:21:23.418Z",
+          "_cachedIn": "124 μs",
+          "_resolvedIn": "124 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9738,17 +9779,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2023-05-03T01:18:32.885Z",
-            "component-cached-in": "67 μs",
-            "component-resolved-in": "67 μs"
+            "component-cached-at": "2023-05-03T06:21:23.418Z",
+            "component-cached-in": "124 μs",
+            "component-resolved-in": "124 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2023-05-03T01:18:32.885Z",
-              "_cachedIn": "18 μs",
-              "_resolvedIn": "18 μs",
+              "_cachedAt": "2023-05-03T06:21:23.418Z",
+              "_cachedIn": "34 μs",
+              "_resolvedIn": "34 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9808,9 +9849,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2023-05-03T01:18:32.885Z",
-                "component-cached-in": "18 μs",
-                "component-resolved-in": "18 μs"
+                "component-cached-at": "2023-05-03T06:21:23.418Z",
+                "component-cached-in": "34 μs",
+                "component-resolved-in": "34 μs"
               },
               "components": {}
             }
@@ -9819,9 +9860,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-05-03T01:18:32.885Z",
-          "_cachedIn": "22 μs",
-          "_resolvedIn": "22 μs",
+          "_cachedAt": "2023-05-03T06:21:23.418Z",
+          "_cachedIn": "32 μs",
+          "_resolvedIn": "32 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9830,9 +9871,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2023-05-03T01:18:32.885Z",
-            "component-cached-in": "22 μs",
-            "component-resolved-in": "22 μs"
+            "component-cached-at": "2023-05-03T06:21:23.418Z",
+            "component-cached-in": "32 μs",
+            "component-resolved-in": "32 μs"
           },
           "components": {}
         }
