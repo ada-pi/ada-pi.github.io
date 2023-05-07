@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Ruby Stake Pool RUBY\",\"slug\":\"/pool-widget/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da\",\"template\":\"PoolWidgetPage\",\"poolId\":\"2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2023-05-07T15:16:52.300Z",
-  "_cachedIn": "229 μs",
-  "_resolvedIn": "229 μs",
+  "_cachedAt": "2023-05-07T18:19:31.032Z",
+  "_cachedIn": "269 μs",
+  "_resolvedIn": "269 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,7 +24,7 @@
         "href": "/stake-pools/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da"
       },
       "description": "An Independent and Mission Driven Cardano Stake Pool dedicated to supporting Children Welfare and building on Cardano Blockchain.",
-      "image": "https://cdn.adapools.org/pool_logo/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da.png",
+      "image": "https://github.com/ruby-pool/ruby-web-app/blob/main/logo.png?raw=true",
       "hasImage": true,
       "ticker": "RUBY",
       "addr": "pool19seeqvu6hfr3qru6kx3rp4khymssa82j00jfm3d6k3ua590wdwv",
@@ -32,7 +32,7 @@
       "totalStake": "1109621810",
       "blocksLifetime": 3,
       "delegators": 7,
-      "saturated": 0.000015928660514211723,
+      "saturated": 0.000015928662361459524,
       "pledge": "1000000000",
       "pledged": "1002996272",
       "taxRatio": 0.03,
@@ -153,8 +153,35 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "Ruby Stake Pool",
+        "description": "An Independent and Mission Driven Cardano Stake Pool dedicated to supporting Children Welfare and building on Cardano Blockchain.",
+        "ticker": "RUBY",
+        "homepage": "http://rubypools.com",
+        "extended": "https://raw.githubusercontent.com/ruby-pool/ruby-web-app/main/extended-metadata-pool.json"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://raw.githubusercontent.com/ruby-pool/ruby-web-app/main/logo_64x64.ico",
+          "url_png_logo": "https://github.com/ruby-pool/ruby-web-app/blob/main/logo.png?raw=true",
+          "location": "Canada",
+          "social": {
+            "twitter_handle": "rubypools",
+            "telegram_handle": "LeviiiAckermannnn",
+            "github_handle": "ruby-pool"
+          },
+          "company": {
+            "name": "RUBY"
+          },
+          "about": {
+            "me": "An independent and mission-driven Cardano Stake Pool dedicated to participating in the decentralized infrastructure of Cardano in a sustainable manner, all the while working with our ADA stake delegators to earn passive staking profits",
+            "server": "Located in Surrey/Canada and Toronto/Canada, our relays currently operate on Cloud-Server, with an upcoming planned migration to said ARM devives of Raspberry Pi 4 powered by solar energy"
+          }
+        },
+        "my-pool-ids": [
+          "2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da"
+        ]
+      },
       "telegram": "LeviiiAckermannnn",
       "twitter": "rubypools",
       "github": "ruby-pool",
@@ -164,17 +191,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2023-05-07T15:16:52.300Z",
-    "component-cached-in": "229 μs",
-    "component-resolved-in": "229 μs"
+    "component-cached-at": "2023-05-07T18:19:31.032Z",
+    "component-cached-in": "269 μs",
+    "component-resolved-in": "269 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2023-05-07T15:16:52.300Z",
-      "_cachedIn": "69 μs",
-      "_resolvedIn": "69 μs",
+      "_cachedAt": "2023-05-07T18:19:31.032Z",
+      "_cachedIn": "63 μs",
+      "_resolvedIn": "63 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -183,15 +210,15 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2023-05-07T15:16:52.300Z",
-        "component-cached-in": "69 μs",
-        "component-resolved-in": "69 μs"
+        "component-cached-at": "2023-05-07T18:19:31.032Z",
+        "component-cached-in": "63 μs",
+        "component-resolved-in": "63 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-05-07T15:16:52.300Z",
+          "_cachedAt": "2023-05-07T18:19:31.032Z",
           "_cachedIn": "37 μs",
           "_resolvedIn": "37 μs",
           "id": "Context",
@@ -201,7 +228,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2023-05-07T15:14:26.143Z",
+              "createdAt": "2023-05-07T18:17:01.075Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2749,7 +2776,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da.png",
+                "image": "https://github.com/ruby-pool/ruby-web-app/blob/main/logo.png?raw=true",
                 "updatedAt": "2021-10-26T07:27:05.000Z",
                 "filePath": "/en/stake-pools/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da.md",
                 "rank": 0
@@ -9734,7 +9761,7 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2023-05-07T15:16:52.300Z",
+            "component-cached-at": "2023-05-07T18:19:31.032Z",
             "component-cached-in": "37 μs",
             "component-resolved-in": "37 μs"
           },
@@ -9743,9 +9770,9 @@
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-05-07T15:16:52.300Z",
-          "_cachedIn": "54 μs",
-          "_resolvedIn": "54 μs",
+          "_cachedAt": "2023-05-07T18:19:31.032Z",
+          "_cachedIn": "50 μs",
+          "_resolvedIn": "50 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9756,17 +9783,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2023-05-07T15:16:52.300Z",
-            "component-cached-in": "54 μs",
-            "component-resolved-in": "54 μs"
+            "component-cached-at": "2023-05-07T18:19:31.032Z",
+            "component-cached-in": "50 μs",
+            "component-resolved-in": "50 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2023-05-07T15:16:52.300Z",
-              "_cachedIn": "15 μs",
-              "_resolvedIn": "15 μs",
+              "_cachedAt": "2023-05-07T18:19:31.032Z",
+              "_cachedIn": "14 μs",
+              "_resolvedIn": "14 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9826,9 +9853,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2023-05-07T15:16:52.300Z",
-                "component-cached-in": "15 μs",
-                "component-resolved-in": "15 μs"
+                "component-cached-at": "2023-05-07T18:19:31.032Z",
+                "component-cached-in": "14 μs",
+                "component-resolved-in": "14 μs"
               },
               "components": {}
             }
@@ -9837,9 +9864,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-05-07T15:16:52.300Z",
-          "_cachedIn": "15 μs",
-          "_resolvedIn": "15 μs",
+          "_cachedAt": "2023-05-07T18:19:31.032Z",
+          "_cachedIn": "16 μs",
+          "_resolvedIn": "16 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9848,9 +9875,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2023-05-07T15:16:52.300Z",
-            "component-cached-in": "15 μs",
-            "component-resolved-in": "15 μs"
+            "component-cached-at": "2023-05-07T18:19:31.032Z",
+            "component-cached-in": "16 μs",
+            "component-resolved-in": "16 μs"
           },
           "components": {}
         }
