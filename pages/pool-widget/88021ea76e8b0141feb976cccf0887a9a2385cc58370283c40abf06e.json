@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"CIEL Stake Pool CIEL\",\"slug\":\"/pool-widget/88021ea76e8b0141feb976cccf0887a9a2385cc58370283c40abf06e\",\"template\":\"PoolWidgetPage\",\"poolId\":\"88021ea76e8b0141feb976cccf0887a9a2385cc58370283c40abf06e\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2023-05-28T09:15:25.056Z",
-  "_cachedIn": "211 μs",
-  "_resolvedIn": "211 μs",
+  "_cachedAt": "2023-05-28T12:26:44.167Z",
+  "_cachedIn": "260 μs",
+  "_resolvedIn": "260 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -29,12 +29,12 @@
       "ticker": "CIEL",
       "addr": "pool13qppafmw3vq5rl4ewmxv7zy84x3rshx9sdczs0zq40cxu0dqkrg",
       "website": "https://twitter.com/CIEL_Stake_Pool",
-      "totalStake": "6667236941",
+      "totalStake": "6667040552",
       "blocksLifetime": 0,
       "delegators": 6,
-      "saturated": 0.00009559236382171747,
-      "pledge": "500000000",
-      "pledged": "1021283099",
+      "saturated": 0.00009558956507718912,
+      "pledge": "1000000000",
+      "pledged": "1021086710",
       "taxRatio": 0,
       "taxFix": "340000000",
       "roa": "0",
@@ -60,69 +60,54 @@
       ],
       "relays": [
         {
-          "addr": "13.250.0.50",
+          "addr": "cielstakepool-01.com",
           "port": 6000,
           "data": {
-            "ip": "13.250.0.50",
+            "ip": "42.148.30.222",
             "type": "ipv4",
             "continent_code": "AS",
             "continent_name": "Asia",
-            "country_code": "SG",
-            "country_name": "Singapore",
-            "region_code": "01",
-            "region_name": "Central Singapore",
-            "city": "Singapore",
-            "zip": null,
-            "latitude": 1.287950038909912,
-            "longitude": 103.8517837524414,
+            "country_code": "JP",
+            "country_name": "Japan",
+            "region_code": "14",
+            "region_name": "Kanagawa",
+            "city": "Yokosuka",
+            "zip": "237-0078",
+            "latitude": 35.29793930053711,
+            "longitude": 139.65065002441406,
             "location": {
-              "geoname_id": 1880252,
-              "capital": "Singapore",
+              "geoname_id": 1848313,
+              "capital": "Tokyo",
               "languages": [
                 {
-                  "code": "en",
-                  "name": "English",
-                  "native": "English"
-                },
-                {
-                  "code": "ms",
-                  "name": "Malay",
-                  "native": "Bahasa Melayu"
-                },
-                {
-                  "code": "ta",
-                  "name": "Tamil",
-                  "native": "தமிழ்"
-                },
-                {
-                  "code": "zh",
-                  "name": "Chinese",
-                  "native": "中文"
+                  "code": "ja",
+                  "name": "Japanese",
+                  "native": "日本語"
                 }
               ],
-              "country_flag": "https://assets.ipstack.com/flags/sg.svg",
-              "country_flag_emoji": "🇸🇬",
-              "country_flag_emoji_unicode": "U+1F1F8 U+1F1EC",
-              "calling_code": "65",
+              "country_flag": "https://assets.ipstack.com/flags/jp.svg",
+              "country_flag_emoji": "🇯🇵",
+              "country_flag_emoji_unicode": "U+1F1EF U+1F1F5",
+              "calling_code": "81",
               "is_eu": false
             },
             "time_zone": {
-              "id": "Asia/Singapore",
-              "current_time": "2023-05-28T17:14:46+08:00",
-              "gmt_offset": 28800,
-              "code": "+08",
+              "id": "Asia/Tokyo",
+              "current_time": "2023-05-28T21:26:36+09:00",
+              "gmt_offset": 32400,
+              "code": "JST",
               "is_daylight_saving": false
             },
             "currency": {
-              "code": "SGD",
-              "name": "Singapore Dollar",
-              "plural": "Singapore dollars",
-              "symbol": "S$",
-              "symbol_native": "$"
+              "code": "JPY",
+              "name": "Japanese Yen",
+              "plural": "Japanese yen",
+              "symbol": "¥",
+              "symbol_native": "￥"
             },
             "connection": {
-              "asn": 16509,
-              "isp": "amazon.com Inc"
+              "asn": 9824,
+              "isp": "Jcom Co. Ltd."
             }
           }
         }
@@ -179,17 +164,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2023-05-28T09:15:25.056Z",
-    "component-cached-in": "211 μs",
-    "component-resolved-in": "211 μs"
+    "component-cached-at": "2023-05-28T12:26:44.167Z",
+    "component-cached-in": "260 μs",
+    "component-resolved-in": "260 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2023-05-28T09:15:25.056Z",
-      "_cachedIn": "80 μs",
-      "_resolvedIn": "80 μs",
+      "_cachedAt": "2023-05-28T12:26:44.167Z",
+      "_cachedIn": "82 μs",
+      "_resolvedIn": "82 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -198,15 +183,15 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2023-05-28T09:15:25.056Z",
-        "component-cached-in": "80 μs",
-        "component-resolved-in": "80 μs"
+        "component-cached-at": "2023-05-28T12:26:44.167Z",
+        "component-cached-in": "82 μs",
+        "component-resolved-in": "82 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-05-28T09:15:25.056Z",
+          "_cachedAt": "2023-05-28T12:26:44.167Z",
           "_cachedIn": "45 μs",
           "_resolvedIn": "45 μs",
           "id": "Context",
@@ -216,7 +201,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2023-05-28T09:14:34.476Z",
+              "createdAt": "2023-05-28T12:26:24.953Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2603,7 +2588,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://raw.githubusercontent.com/siberiapool/siberiapool.github.io/main/logo_925x885.jpg",
+                "image": "https://cdn.adapools.org/pool_logo/1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed.png",
                 "updatedAt": "2021-09-09T15:26:19.000Z",
                 "filePath": "/en/stake-pools/1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed.md",
                 "rank": 25
@@ -9719,7 +9704,7 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2023-05-28T09:15:25.056Z",
+            "component-cached-at": "2023-05-28T12:26:44.167Z",
             "component-cached-in": "45 μs",
             "component-resolved-in": "45 μs"
           },
@@ -9728,9 +9713,9 @@
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-05-28T09:15:25.056Z",
-          "_cachedIn": "62 μs",
-          "_resolvedIn": "62 μs",
+          "_cachedAt": "2023-05-28T12:26:44.167Z",
+          "_cachedIn": "63 μs",
+          "_resolvedIn": "63 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9741,17 +9726,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2023-05-28T09:15:25.056Z",
-            "component-cached-in": "62 μs",
-            "component-resolved-in": "62 μs"
+            "component-cached-at": "2023-05-28T12:26:44.167Z",
+            "component-cached-in": "63 μs",
+            "component-resolved-in": "63 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2023-05-28T09:15:25.056Z",
-              "_cachedIn": "18 μs",
-              "_resolvedIn": "18 μs",
+              "_cachedAt": "2023-05-28T12:26:44.167Z",
+              "_cachedIn": "19 μs",
+              "_resolvedIn": "19 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9811,9 +9796,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2023-05-28T09:15:25.056Z",
-                "component-cached-in": "18 μs",
-                "component-resolved-in": "18 μs"
+                "component-cached-at": "2023-05-28T12:26:44.167Z",
+                "component-cached-in": "19 μs",
+                "component-resolved-in": "19 μs"
               },
               "components": {}
             }
@@ -9822,7 +9807,7 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-05-28T09:15:25.056Z",
+          "_cachedAt": "2023-05-28T12:26:44.167Z",
           "_cachedIn": "17 μs",
           "_resolvedIn": "17 μs",
           "id": "Footer",
@@ -9833,7 +9818,7 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2023-05-28T09:15:25.056Z",
+            "component-cached-at": "2023-05-28T12:26:44.167Z",
             "component-cached-in": "17 μs",
             "component-resolved-in": "17 μs"
           },
