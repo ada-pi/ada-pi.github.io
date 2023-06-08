@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Behemoth BHMT\",\"slug\":\"/pool-widget/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e\",\"template\":\"PoolWidgetPage\",\"poolId\":\"052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2023-06-08T01:39:06.887Z",
-  "_cachedIn": "466 μs",
-  "_resolvedIn": "466 μs",
+  "_cachedAt": "2023-06-08T06:19:42.990Z",
+  "_cachedIn": "667 μs",
+  "_resolvedIn": "667 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,7 +24,7 @@
         "href": "/stake-pools/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e"
       },
       "description": "Towards sustainable and decentralized Cardano.",
-      "image": "https://cdn.adapools.org/pool_logo/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.png",
+      "image": "https://behemothpool.files.wordpress.com/2021/09/bhmt_logo_400x400.png",
       "hasImage": true,
       "ticker": "BHMT",
       "addr": "pool1q5h54ekx7wwqpfz78y8dppyl6uv7rpyvvr8nhf4es434un4mpx3",
@@ -32,7 +32,7 @@
       "totalStake": "25877369139",
       "blocksLifetime": 4,
       "delegators": 27,
-      "saturated": 0.0003708009238992883,
+      "saturated": 0.0003708009773903283,
       "pledge": "1000000000",
       "pledged": "2015644521",
       "taxRatio": 0,
@@ -145,8 +145,41 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "Behemoth",
+        "description": "Towards sustainable and decentralized Cardano.",
+        "ticker": "BHMT",
+        "homepage": "https://www.behemothpool.com",
+        "extended": "https://raw.githubusercontent.com/rakalto/Extended-meta/main/meta.json"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://behemothpool.files.wordpress.com/2021/05/bhmt_icon_64x64-5.png",
+          "url_png_logo": "https://behemothpool.files.wordpress.com/2021/09/bhmt_logo_400x400.png",
+          "location": "Kaarina, Finland",
+          "social": {
+            "twitter_handle": "Behemothpool",
+            "telegram_handle": "behemothpool",
+            "github_handle": "rakalto"
+          },
+          "about": {
+            "me": " My goal is to promote the decentralization of Cardano blockchain. The best way to do so is to be a reliable single stake pool operator and educate others about the best practices. My Finnish translations of Armada Alliance materials help spread the word beyond borders.",
+            "server": "Raspberry Pi Hosted at my home in Kaarina, Finland."
+          },
+          "my-pool-ids": {
+            "0": "052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e"
+          },
+          "adapools_ext": {
+            "prometheus": {
+              "0": {
+                "name": "relay 1 fi",
+                "type": "relay",
+                "key": "3f62526309ac1417217fad14d9caffca"
+              }
+            }
+          }
+        }
+      },
       "telegram": "behemothpool",
       "twitter": "Behemothpool",
       "github": "rakalto",
@@ -156,17 +189,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2023-06-08T01:39:06.887Z",
-    "component-cached-in": "466 μs",
-    "component-resolved-in": "466 μs"
+    "component-cached-at": "2023-06-08T06:19:42.990Z",
+    "component-cached-in": "667 μs",
+    "component-resolved-in": "667 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2023-06-08T01:39:06.887Z",
-      "_cachedIn": "131 μs",
-      "_resolvedIn": "131 μs",
+      "_cachedAt": "2023-06-08T06:19:42.990Z",
+      "_cachedIn": "144 μs",
+      "_resolvedIn": "144 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -175,17 +208,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2023-06-08T01:39:06.887Z",
-        "component-cached-in": "131 μs",
-        "component-resolved-in": "131 μs"
+        "component-cached-at": "2023-06-08T06:19:42.990Z",
+        "component-cached-in": "144 μs",
+        "component-resolved-in": "144 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-06-08T01:39:06.887Z",
-          "_cachedIn": "75 μs",
-          "_resolvedIn": "75 μs",
+          "_cachedAt": "2023-06-08T06:19:42.990Z",
+          "_cachedIn": "82 μs",
+          "_resolvedIn": "82 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -193,7 +226,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2023-06-08T01:38:47.935Z",
+              "createdAt": "2023-06-08T06:19:16.349Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2536,7 +2569,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.png",
+                "image": "https://behemothpool.files.wordpress.com/2021/09/bhmt_logo_400x400.png",
                 "updatedAt": "2021-08-19T17:19:44.000Z",
                 "filePath": "/en/stake-pools/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.md",
                 "rank": 0
@@ -2580,7 +2613,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed.png",
+                "image": "https://raw.githubusercontent.com/siberiapool/siberiapool.github.io/main/logo_925x885.jpg",
                 "updatedAt": "2021-09-09T15:26:19.000Z",
                 "filePath": "/en/stake-pools/1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed.md",
                 "rank": 25
@@ -2873,7 +2906,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a.png",
+                "image": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/3f97391f669120a5ffcfba7c201833d6fef33d35/static/enso-small.png",
                 "updatedAt": "2021-07-28T12:47:53.000Z",
                 "filePath": "/en/stake-pools/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a.md",
                 "rank": 50
@@ -3233,7 +3266,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://piada.io/images/piada-logo-full.png",
+                "image": "https://cdn.adapools.org/pool_logo/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.png",
                 "updatedAt": "2023-03-01T22:26:56.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md",
                 "rank": 0
@@ -3325,7 +3358,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://raw.githubusercontent.com/Seaside-Staking/m/main/Logo_comp.png",
+                "image": "https://cdn.adapools.org/pool_logo/f1ae552b032c2d87a416f4067eaf4636b3fe5e80230a1f63aa33f6bc.png",
                 "updatedAt": "2022-03-28T23:09:00.000Z",
                 "filePath": "/en/stake-pools/f1ae552b032c2d87a416f4067eaf4636b3fe5e80230a1f63aa33f6bc.md",
                 "rank": 0
@@ -9696,18 +9729,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2023-06-08T01:39:06.887Z",
-            "component-cached-in": "75 μs",
-            "component-resolved-in": "75 μs"
+            "component-cached-at": "2023-06-08T06:19:42.990Z",
+            "component-cached-in": "82 μs",
+            "component-resolved-in": "82 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-06-08T01:39:06.887Z",
-          "_cachedIn": "107 μs",
-          "_resolvedIn": "107 μs",
+          "_cachedAt": "2023-06-08T06:19:42.990Z",
+          "_cachedIn": "110 μs",
+          "_resolvedIn": "110 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9718,17 +9751,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2023-06-08T01:39:06.887Z",
-            "component-cached-in": "107 μs",
-            "component-resolved-in": "107 μs"
+            "component-cached-at": "2023-06-08T06:19:42.990Z",
+            "component-cached-in": "110 μs",
+            "component-resolved-in": "110 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2023-06-08T01:39:06.887Z",
-              "_cachedIn": "19 μs",
-              "_resolvedIn": "19 μs",
+              "_cachedAt": "2023-06-08T06:19:42.990Z",
+              "_cachedIn": "28 μs",
+              "_resolvedIn": "28 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9788,9 +9821,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2023-06-08T01:39:06.887Z",
-                "component-cached-in": "19 μs",
-                "component-resolved-in": "19 μs"
+                "component-cached-at": "2023-06-08T06:19:42.990Z",
+                "component-cached-in": "28 μs",
+                "component-resolved-in": "28 μs"
               },
               "components": {}
             }
@@ -9799,9 +9832,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-06-08T01:39:06.887Z",
-          "_cachedIn": "42 μs",
-          "_resolvedIn": "42 μs",
+          "_cachedAt": "2023-06-08T06:19:42.990Z",
+          "_cachedIn": "32 μs",
+          "_resolvedIn": "32 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9810,9 +9843,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2023-06-08T01:39:06.887Z",
-            "component-cached-in": "42 μs",
-            "component-resolved-in": "42 μs"
+            "component-cached-at": "2023-06-08T06:19:42.990Z",
+            "component-cached-in": "32 μs",
+            "component-resolved-in": "32 μs"
           },
           "components": {}
         }
