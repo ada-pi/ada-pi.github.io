@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"𝛑 + ₳ = ∞ PIADA\",\"slug\":\"/pool-widget/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65\",\"template\":\"PoolWidgetPage\",\"poolId\":\"b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2023-06-09T06:19:47.833Z",
-  "_cachedIn": "234 μs",
-  "_resolvedIn": "234 μs",
+  "_cachedAt": "2023-06-09T09:14:39.328Z",
+  "_cachedIn": "248 μs",
+  "_resolvedIn": "248 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,15 +24,15 @@
         "href": "/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65"
       },
       "description": "PIADA provides educational content specializing in Raspberry Pi and ARM 64-bit SoC based stake pool operations.",
-      "image": "https://cdn.adapools.org/pool_logo/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.png",
+      "image": "https://piada.io/images/piada-logo-full.png",
       "hasImage": true,
       "ticker": "PIADA",
       "addr": "pool1hrv8gtrm0dgjg6zyss5uwa4nkruzfnh5vrdkr2sayj7x2nw6mjc",
       "website": "https://piada.io/",
-      "totalStake": "18184561254490",
+      "totalStake": "18181354871767",
       "blocksLifetime": 988,
       "delegators": 213,
-      "saturated": 0.2605697099238734,
+      "saturated": 0.2605237887489824,
       "pledge": "90000000000",
       "pledged": "94421903590",
       "taxRatio": 0.015,
@@ -156,8 +156,50 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "𝛑 + ₳ = ∞",
+        "description": "PIADA pool is an Armada Alliance founder specializing in stake pool education using efficient bare metal ARM hardware.",
+        "ticker": "PIADA",
+        "homepage": "https://piada.io/",
+        "extended": "https://piada.io/piada.extended-metadata.json"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://piada.io/images/piada-logo-64.png",
+          "url_png_logo": "https://piada.io/images/piada-logo-full.png",
+          "location": "East Coast USA",
+          "social": {
+            "twitter_handle": "eastpiada",
+            "telegram_handle": "piadapool",
+            "youtube_handle": "channel/UCligunhcmbMYaBUMvONsKwg",
+            "github_handle": "AstroWa3l"
+          },
+          "company": {
+            "name": "PIADA",
+            "addr": "",
+            "city": "",
+            "country": "United States",
+            "company_id": "",
+            "vat_id": ""
+          },
+          "about": {
+            "me": "https://piada.io/",
+            "server": "Apple Silicon M1s, Rock5b, Firefly, 4x Raspberry Pi 4B",
+            "company": "PIADA pool runs energy efficient ARM hardware. Armada Alliance OGs providing documentation for Cardano on ARM."
+          },
+          "rss": ""
+        },
+        "telegram-admin-handle": {
+          "0": "eastpiada",
+          "1": "Qwailman"
+        },
+        "my-pool-ids": [
+          "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65"
+        ],
+        "when-satured-then-recommend": [
+          "8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8"
+        ]
+      },
       "telegram": "piadapool",
       "twitter": "eastpiada",
       "github": "AstroWa3l",
@@ -168,15 +210,15 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2023-06-09T06:19:47.833Z",
-    "component-cached-in": "234 μs",
-    "component-resolved-in": "234 μs"
+    "component-cached-at": "2023-06-09T09:14:39.328Z",
+    "component-cached-in": "248 μs",
+    "component-resolved-in": "248 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2023-06-09T06:19:47.833Z",
+      "_cachedAt": "2023-06-09T09:14:39.328Z",
       "_cachedIn": "73 μs",
       "_resolvedIn": "73 μs",
       "id": "Layout",
@@ -187,7 +229,7 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2023-06-09T06:19:47.833Z",
+        "component-cached-at": "2023-06-09T09:14:39.328Z",
         "component-cached-in": "73 μs",
         "component-resolved-in": "73 μs"
       },
@@ -195,9 +237,9 @@
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-06-09T06:19:47.833Z",
-          "_cachedIn": "40 μs",
-          "_resolvedIn": "40 μs",
+          "_cachedAt": "2023-06-09T09:14:39.328Z",
+          "_cachedIn": "43 μs",
+          "_resolvedIn": "43 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -205,7 +247,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2023-06-09T06:19:26.721Z",
+              "createdAt": "2023-06-09T09:14:19.569Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2731,7 +2773,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da.png",
+                "image": "https://github.com/ruby-pool/ruby-web-app/blob/main/logo.png?raw=true",
                 "updatedAt": "2021-10-26T07:27:05.000Z",
                 "filePath": "/en/stake-pools/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da.md",
                 "rank": 0
@@ -3175,7 +3217,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/9cbaa13cc5fdaae9c2b517c8596d184620375b5b77191f50bb46abcd.png",
+                "image": "https://github.com/Skeeter69/boapool/blob/8b239445be4f9aa10211741a67356094c2f01f4d/boafil.jpg/?raw=true",
                 "updatedAt": "2022-01-29T21:58:44.000Z",
                 "filePath": "/en/stake-pools/9cbaa13cc5fdaae9c2b517c8596d184620375b5b77191f50bb46abcd.md",
                 "rank": 0
@@ -3245,7 +3287,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.png",
+                "image": "https://piada.io/images/piada-logo-full.png",
                 "updatedAt": "2023-03-01T22:26:56.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md",
                 "rank": 0
@@ -9708,18 +9750,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2023-06-09T06:19:47.833Z",
-            "component-cached-in": "40 μs",
-            "component-resolved-in": "40 μs"
+            "component-cached-at": "2023-06-09T09:14:39.328Z",
+            "component-cached-in": "43 μs",
+            "component-resolved-in": "43 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-06-09T06:19:47.833Z",
-          "_cachedIn": "56 μs",
-          "_resolvedIn": "56 μs",
+          "_cachedAt": "2023-06-09T09:14:39.328Z",
+          "_cachedIn": "59 μs",
+          "_resolvedIn": "59 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9730,17 +9772,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2023-06-09T06:19:47.833Z",
-            "component-cached-in": "56 μs",
-            "component-resolved-in": "56 μs"
+            "component-cached-at": "2023-06-09T09:14:39.328Z",
+            "component-cached-in": "59 μs",
+            "component-resolved-in": "59 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2023-06-09T06:19:47.833Z",
-              "_cachedIn": "17 μs",
-              "_resolvedIn": "17 μs",
+              "_cachedAt": "2023-06-09T09:14:39.328Z",
+              "_cachedIn": "16 μs",
+              "_resolvedIn": "16 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9800,9 +9842,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2023-06-09T06:19:47.833Z",
-                "component-cached-in": "17 μs",
-                "component-resolved-in": "17 μs"
+                "component-cached-at": "2023-06-09T09:14:39.328Z",
+                "component-cached-in": "16 μs",
+                "component-resolved-in": "16 μs"
               },
               "components": {}
             }
@@ -9811,9 +9853,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-06-09T06:19:47.833Z",
-          "_cachedIn": "15 μs",
-          "_resolvedIn": "15 μs",
+          "_cachedAt": "2023-06-09T09:14:39.328Z",
+          "_cachedIn": "17 μs",
+          "_resolvedIn": "17 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9822,9 +9864,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2023-06-09T06:19:47.833Z",
-            "component-cached-in": "15 μs",
-            "component-resolved-in": "15 μs"
+            "component-cached-at": "2023-06-09T09:14:39.328Z",
+            "component-cached-in": "17 μs",
+            "component-resolved-in": "17 μs"
           },
           "components": {}
         }
