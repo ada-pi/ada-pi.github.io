@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Token Stake Pool TOKEN\",\"slug\":\"/pool-widget/1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737\",\"template\":\"PoolWidgetPage\",\"poolId\":\"1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2023-07-06T01:44:14.520Z",
-  "_cachedIn": "263 μs",
-  "_resolvedIn": "263 μs",
+  "_cachedAt": "2023-07-06T06:23:27.802Z",
+  "_cachedIn": "207 μs",
+  "_resolvedIn": "207 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -29,10 +29,10 @@
       "ticker": "TOKEN",
       "addr": "pool1re05a679dfnjdlfk4uhcwzem6c4jqneu6xekuvhg54nnwuat2pf",
       "website": "https://token.stakepool.cc",
-      "totalStake": "4839332869",
+      "totalStake": "4617924346",
       "blocksLifetime": 0,
       "delegators": 61,
-      "saturated": 0.00006922062005971893,
+      "saturated": 0.00006605365658147731,
       "pledge": "1000000000",
       "pledged": "1008453752",
       "taxRatio": 0,
@@ -66,7 +66,60 @@
           "isBackup": true
         }
       ],
-      "relays": [],
+      "relays": [
+        {
+          "addr": "relay1.stakepool.cc",
+          "port": 6001,
+          "data": {
+            "ip": "189.183.181.122",
+            "type": "ipv4",
+            "continent_code": "NA",
+            "continent_name": "North America",
+            "country_code": "MX",
+            "country_name": "Mexico",
+            "region_code": "SLP",
+            "region_name": "San Luis Potosí",
+            "city": "San Luis Potosí",
+            "zip": "78378",
+            "latitude": 22.134830474853516,
+            "longitude": -100.95336151123047,
+            "location": {
+              "geoname_id": 3985606,
+              "capital": "Mexico City",
+              "languages": [
+                {
+                  "code": "es",
+                  "name": "Spanish",
+                  "native": "Español"
+                }
+              ],
+              "country_flag": "https://assets.ipstack.com/flags/mx.svg",
+              "country_flag_emoji": "🇲🇽",
+              "country_flag_emoji_unicode": "U+1F1F2 U+1F1FD",
+              "calling_code": "52",
+              "is_eu": false
+            },
+            "time_zone": {
+              "id": "America/Mexico_City",
+              "current_time": "2023-07-06T00:23:17-06:00",
+              "gmt_offset": -21600,
+              "code": "CST",
+              "is_daylight_saving": false
+            },
+            "currency": {
+              "code": "MXN",
+              "name": "Mexican Peso",
+              "plural": "Mexican pesos",
+              "symbol": "MX$",
+              "symbol_native": "$"
+            },
+            "connection": {
+              "asn": 8151,
+              "isp": "Uninet s.a. De c.V."
+            }
+          }
+        }
+      ],
       "metadata": {
         "name": "Token Stake Pool",
         "description": "Solar-powered nodes with block producer on arm-based M1 Apple Silicon. Fungible token distribution at https://dripdropz.io/explore-projects/TOKEN",
@@ -112,17 +165,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2023-07-06T01:44:14.520Z",
-    "component-cached-in": "263 μs",
-    "component-resolved-in": "263 μs"
+    "component-cached-at": "2023-07-06T06:23:27.802Z",
+    "component-cached-in": "207 μs",
+    "component-resolved-in": "207 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2023-07-06T01:44:14.520Z",
-      "_cachedIn": "82 μs",
-      "_resolvedIn": "82 μs",
+      "_cachedAt": "2023-07-06T06:23:27.802Z",
+      "_cachedIn": "60 μs",
+      "_resolvedIn": "60 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -131,17 +184,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2023-07-06T01:44:14.520Z",
-        "component-cached-in": "82 μs",
-        "component-resolved-in": "82 μs"
+        "component-cached-at": "2023-07-06T06:23:27.802Z",
+        "component-cached-in": "60 μs",
+        "component-resolved-in": "60 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-07-06T01:44:14.520Z",
-          "_cachedIn": "47 μs",
-          "_resolvedIn": "47 μs",
+          "_cachedAt": "2023-07-06T06:23:27.802Z",
+          "_cachedIn": "34 μs",
+          "_resolvedIn": "34 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -149,7 +202,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2023-07-06T01:43:37.230Z",
+              "createdAt": "2023-07-06T06:23:06.615Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2719,7 +2772,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.png",
+                "image": "https://illustratorandweb.com/ext/pool-00000-24bit-1000x1000.png",
                 "updatedAt": "2021-08-02T00:26:01.000Z",
                 "filePath": "/en/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.md",
                 "rank": 0
@@ -2987,10 +3040,10 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/88021ea76e8b0141feb976cccf0887a9a2385cc58370283c40abf06e.png",
+                "image": "https://armada-alliance.com/assets/ship-420.png",
                 "updatedAt": "2022-07-19T10:13:52.000Z",
                 "filePath": "/en/stake-pools/88021ea76e8b0141feb976cccf0887a9a2385cc58370283c40abf06e.md",
-                "rank": 13
+                "rank": 25
               },
               {
                 "id": "8b315cd9c1b128c5cfe70925a786f6db96cf220bbcea8a2a9c6afdb9",
@@ -9622,18 +9675,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2023-07-06T01:44:14.520Z",
-            "component-cached-in": "47 μs",
-            "component-resolved-in": "47 μs"
+            "component-cached-at": "2023-07-06T06:23:27.802Z",
+            "component-cached-in": "34 μs",
+            "component-resolved-in": "34 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-07-06T01:44:14.520Z",
-          "_cachedIn": "65 μs",
-          "_resolvedIn": "65 μs",
+          "_cachedAt": "2023-07-06T06:23:27.802Z",
+          "_cachedIn": "47 μs",
+          "_resolvedIn": "47 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9644,17 +9697,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2023-07-06T01:44:14.520Z",
-            "component-cached-in": "65 μs",
-            "component-resolved-in": "65 μs"
+            "component-cached-at": "2023-07-06T06:23:27.802Z",
+            "component-cached-in": "47 μs",
+            "component-resolved-in": "47 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2023-07-06T01:44:14.520Z",
-              "_cachedIn": "18 μs",
-              "_resolvedIn": "18 μs",
+              "_cachedAt": "2023-07-06T06:23:27.802Z",
+              "_cachedIn": "13 μs",
+              "_resolvedIn": "13 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9714,9 +9767,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2023-07-06T01:44:14.520Z",
-                "component-cached-in": "18 μs",
-                "component-resolved-in": "18 μs"
+                "component-cached-at": "2023-07-06T06:23:27.802Z",
+                "component-cached-in": "13 μs",
+                "component-resolved-in": "13 μs"
               },
               "components": {}
             }
@@ -9725,9 +9778,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-07-06T01:44:14.520Z",
-          "_cachedIn": "19 μs",
-          "_resolvedIn": "19 μs",
+          "_cachedAt": "2023-07-06T06:23:27.802Z",
+          "_cachedIn": "15 μs",
+          "_resolvedIn": "15 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9736,9 +9789,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2023-07-06T01:44:14.520Z",
-            "component-cached-in": "19 μs",
-            "component-resolved-in": "19 μs"
+            "component-cached-at": "2023-07-06T06:23:27.802Z",
+            "component-cached-in": "15 μs",
+            "component-resolved-in": "15 μs"
           },
           "components": {}
         }

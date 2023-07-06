@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"CIEL Stake Pool CIEL\",\"slug\":\"/pool-widget/88021ea76e8b0141feb976cccf0887a9a2385cc58370283c40abf06e\",\"template\":\"PoolWidgetPage\",\"poolId\":\"88021ea76e8b0141feb976cccf0887a9a2385cc58370283c40abf06e\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2023-07-06T01:44:14.914Z",
-  "_cachedIn": "1.51 ms",
-  "_resolvedIn": "1.51 ms",
+  "_cachedAt": "2023-07-06T06:23:27.928Z",
+  "_cachedIn": "1.02 ms",
+  "_resolvedIn": "1.02 ms",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,15 +24,15 @@
         "href": "/stake-pools/88021ea76e8b0141feb976cccf0887a9a2385cc58370283c40abf06e"
       },
       "description": "CIEL Stake Poolは、サステナブルな未来を目指す現役農家が運営しております。委任者様が安心して継続的にご利用いただけるよう努めていきます、よろしくお願いいたします。",
-      "image": "https://cdn.adapools.org/pool_logo/88021ea76e8b0141feb976cccf0887a9a2385cc58370283c40abf06e.png",
-      "hasImage": true,
+      "image": "https://armada-alliance.com/assets/ship-420.png",
+      "hasImage": false,
       "ticker": "CIEL",
       "addr": "pool13qppafmw3vq5rl4ewmxv7zy84x3rshx9sdczs0zq40cxu0dqkrg",
       "website": "https://twitter.com/CIEL_Stake_Pool",
       "totalStake": "13233924043",
       "blocksLifetime": 0,
       "delegators": 7,
-      "saturated": 0.00018929477530835303,
+      "saturated": 0.00018929480183426067,
       "pledge": "1000000000",
       "pledged": "1021086710",
       "taxRatio": 0,
@@ -93,7 +93,7 @@
             },
             "time_zone": {
               "id": "Asia/Tokyo",
-              "current_time": "2023-07-06T10:44:01+09:00",
+              "current_time": "2023-07-06T15:23:19+09:00",
               "gmt_offset": 32400,
               "code": "JST",
               "is_daylight_saving": false
@@ -112,30 +112,69 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "CIEL Stake Pool",
+        "description": "CIEL Stake Poolは、サステナブルな未来を目指す現役農家が運営しております。委任者様が安心して継続的にご利用いただけるよう努めていきます、よろしくお願いいたします。",
+        "ticker": "CIEL",
+        "homepage": "https://cielstakepool.com",
+        "extended": "https://raw.githubusercontent.com/449sabu/CardanoSP/main/extendedMeta.json"
+      },
+      "extended": {
+        "verification": "bff006e656e4",
+        "how-to-implement": "in your meta.json - define *extended* with url to this (json) file - https://raw.githubusercontent.com/cardanians/cexplorer.io/main/examples/meta.json",
+        "info": {
+          "url_png_icon_64x64": "https://raw.githubusercontent.com/449sabu/CardanoSP/main/c.png",
+          "url_png_logo": "",
+          "location": "Tokyo, Japan",
+          "social": {
+            "twitter_handle": "CIEL_Stake_Pool",
+            "telegram_handle": "CIEL_Official_Grope_Chat",
+            "facebook_handle": "",
+            "youtube_handle": "channel/UCogyT3gaLf5v3tXxJ1y1ZNw",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": "449sabu",
+            "patreon_handle": "",
+            "linkedin_handle": "",
+            "ada_handle": ""
+          },
+          "company": {
+            "name": "",
+            "addr": "",
+            "city": "",
+            "country": "",
+            "company_id": "",
+            "vat_id": ""
+          },
+          "about": {
+            "me": "",
+            "server": "2x  4vCPU 16GB of RAM and a 500GB SSD",
+            "company": ""
+          }
+        }
+      },
       "telegram": "Yoshiki",
       "twitter": "CIEL_Stake_Pool",
       "github": "449sabu",
       "youtube": "channel/UCogyT3gaLf5v3tXxJ1y1ZNw",
       "discord": "Yoshiki [CIEL]#8135",
-      "qualityScore": 87.5
+      "qualityScore": 75
     }
   },
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2023-07-06T01:44:14.914Z",
-    "component-cached-in": "1.51 ms",
-    "component-resolved-in": "1.51 ms"
+    "component-cached-at": "2023-07-06T06:23:27.928Z",
+    "component-cached-in": "1.02 ms",
+    "component-resolved-in": "1.02 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2023-07-06T01:44:14.914Z",
-      "_cachedIn": "131 μs",
-      "_resolvedIn": "131 μs",
+      "_cachedAt": "2023-07-06T06:23:27.928Z",
+      "_cachedIn": "88 μs",
+      "_resolvedIn": "88 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -144,17 +183,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2023-07-06T01:44:14.914Z",
-        "component-cached-in": "131 μs",
-        "component-resolved-in": "131 μs"
+        "component-cached-at": "2023-07-06T06:23:27.928Z",
+        "component-cached-in": "88 μs",
+        "component-resolved-in": "88 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-07-06T01:44:14.914Z",
-          "_cachedIn": "78 μs",
-          "_resolvedIn": "78 μs",
+          "_cachedAt": "2023-07-06T06:23:27.928Z",
+          "_cachedIn": "49 μs",
+          "_resolvedIn": "49 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -162,7 +201,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2023-07-06T01:43:37.230Z",
+              "createdAt": "2023-07-06T06:23:06.615Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2732,7 +2771,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.png",
+                "image": "https://illustratorandweb.com/ext/pool-00000-24bit-1000x1000.png",
                 "updatedAt": "2021-08-02T00:26:01.000Z",
                 "filePath": "/en/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.md",
                 "rank": 0
@@ -3000,10 +3039,10 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/88021ea76e8b0141feb976cccf0887a9a2385cc58370283c40abf06e.png",
+                "image": "https://armada-alliance.com/assets/ship-420.png",
                 "updatedAt": "2022-07-19T10:13:52.000Z",
                 "filePath": "/en/stake-pools/88021ea76e8b0141feb976cccf0887a9a2385cc58370283c40abf06e.md",
-                "rank": 13
+                "rank": 25
               },
               {
                 "id": "8b315cd9c1b128c5cfe70925a786f6db96cf220bbcea8a2a9c6afdb9",
@@ -9635,18 +9674,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2023-07-06T01:44:14.914Z",
-            "component-cached-in": "78 μs",
-            "component-resolved-in": "78 μs"
+            "component-cached-at": "2023-07-06T06:23:27.928Z",
+            "component-cached-in": "49 μs",
+            "component-resolved-in": "49 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-07-06T01:44:14.914Z",
-          "_cachedIn": "102 μs",
-          "_resolvedIn": "102 μs",
+          "_cachedAt": "2023-07-06T06:23:27.928Z",
+          "_cachedIn": "66 μs",
+          "_resolvedIn": "66 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9657,17 +9696,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2023-07-06T01:44:14.914Z",
-            "component-cached-in": "102 μs",
-            "component-resolved-in": "102 μs"
+            "component-cached-at": "2023-07-06T06:23:27.928Z",
+            "component-cached-in": "66 μs",
+            "component-resolved-in": "66 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2023-07-06T01:44:14.914Z",
-              "_cachedIn": "25 μs",
-              "_resolvedIn": "25 μs",
+              "_cachedAt": "2023-07-06T06:23:27.928Z",
+              "_cachedIn": "18 μs",
+              "_resolvedIn": "18 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9727,9 +9766,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2023-07-06T01:44:14.914Z",
-                "component-cached-in": "25 μs",
-                "component-resolved-in": "25 μs"
+                "component-cached-at": "2023-07-06T06:23:27.928Z",
+                "component-cached-in": "18 μs",
+                "component-resolved-in": "18 μs"
               },
               "components": {}
             }
@@ -9738,9 +9777,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-07-06T01:44:14.914Z",
-          "_cachedIn": "22 μs",
-          "_resolvedIn": "22 μs",
+          "_cachedAt": "2023-07-06T06:23:27.928Z",
+          "_cachedIn": "19 μs",
+          "_resolvedIn": "19 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9749,9 +9788,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2023-07-06T01:44:14.914Z",
-            "component-cached-in": "22 μs",
-            "component-resolved-in": "22 μs"
+            "component-cached-at": "2023-07-06T06:23:27.928Z",
+            "component-cached-in": "19 μs",
+            "component-resolved-in": "19 μs"
           },
           "components": {}
         }
