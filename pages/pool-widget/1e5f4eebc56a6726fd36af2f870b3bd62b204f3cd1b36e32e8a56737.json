@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Token Stake Pool TOKEN\",\"slug\":\"/pool-widget/1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737\",\"template\":\"PoolWidgetPage\",\"poolId\":\"1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2023-11-01T20:18:39.514Z",
-  "_cachedIn": "247 μs",
-  "_resolvedIn": "247 μs",
+  "_cachedAt": "2023-11-02T01:08:14.584Z",
+  "_cachedIn": "272 μs",
+  "_resolvedIn": "272 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -29,10 +29,10 @@
       "ticker": "TOKEN",
       "addr": "pool1re05a679dfnjdlfk4uhcwzem6c4jqneu6xekuvhg54nnwuat2pf",
       "website": "https://token.stakepool.cc",
-      "totalStake": "5789293879",
+      "totalStake": "5823436771",
       "blocksLifetime": 0,
-      "delegators": 64,
-      "saturated": 0.00008214436467049395,
+      "delegators": 65,
+      "saturated": 0.00008260511029390033,
       "pledge": "1000000000",
       "pledged": "1142460092",
       "taxRatio": 0,
@@ -71,58 +71,6 @@
           "addr": "relay1.stakepool.cc",
           "port": 6001,
           "data": {
-            "ip": "189.183.181.86",
-            "type": "ipv4",
-            "continent_code": "NA",
-            "continent_name": "North America",
-            "country_code": "MX",
-            "country_name": "Mexico",
-            "region_code": "SLP",
-            "region_name": "San Luis Potosí",
-            "city": "San Luis Potosí",
-            "zip": "78000",
-            "latitude": 22.153060913085938,
-            "longitude": -100.976318359375,
-            "location": {
-              "geoname_id": 3985606,
-              "capital": "Mexico City",
-              "languages": [
-                {
-                  "code": "es",
-                  "name": "Spanish",
-                  "native": "Español"
-                }
-              ],
-              "country_flag": "https://assets.ipstack.com/flags/mx.svg",
-              "country_flag_emoji": "🇲🇽",
-              "country_flag_emoji_unicode": "U+1F1F2 U+1F1FD",
-              "calling_code": "52",
-              "is_eu": false
-            },
-            "time_zone": {
-              "id": "America/Mexico_City",
-              "current_time": "2023-11-01T14:18:24-06:00",
-              "gmt_offset": -21600,
-              "code": "CST",
-              "is_daylight_saving": false
-            },
-            "currency": {
-              "code": "MXN",
-              "name": "Mexican Peso",
-              "plural": "Mexican pesos",
-              "symbol": "MX$",
-              "symbol_native": "$"
-            },
-            "connection": {
-              "asn": 8151,
-              "isp": "Uninet"
-            }
-          }
-        },
-        {
-          "addr": "relay2.stakepool.cc",
-          "port": 6002,
-          "data": {
             "ip": "5.189.168.63",
             "type": "ipv4",
             "continent_code": "EU",
@@ -153,7 +101,7 @@
             },
             "time_zone": {
               "id": "Europe/Berlin",
-              "current_time": "2023-11-01T21:18:25+01:00",
+              "current_time": "2023-11-02T02:08:02+01:00",
               "gmt_offset": 3600,
               "code": "CET",
               "is_daylight_saving": false
@@ -168,6 +116,63 @@
             "connection": {
               "asn": 51167,
               "isp": "Contabo Gmbh"
+            }
+          }
+        },
+        {
+          "addr": "relay2.stakepool.cc",
+          "port": 6002,
+          "data": {
+            "ip": "109.123.231.24",
+            "type": "ipv4",
+            "continent_code": "EU",
+            "continent_name": "Europe",
+            "country_code": "CZ",
+            "country_name": "Czechia",
+            "region_code": "10",
+            "region_name": "Hlavní město Praha",
+            "city": "Prague",
+            "zip": "106 00",
+            "latitude": 50.0512809753418,
+            "longitude": 14.492819786071777,
+            "location": {
+              "geoname_id": 3067696,
+              "capital": "Prague",
+              "languages": [
+                {
+                  "code": "cs",
+                  "name": "Czech",
+                  "native": "Čeština"
+                },
+                {
+                  "code": "sk",
+                  "name": "Slovak",
+                  "native": "Slovenčina"
+                }
+              ],
+              "country_flag": "https://assets.ipstack.com/flags/cz.svg",
+              "country_flag_emoji": "🇨🇿",
+              "country_flag_emoji_unicode": "U+1F1E8 U+1F1FF",
+              "calling_code": "420",
+              "is_eu": true
+            },
+            "time_zone": {
+              "id": "Europe/Prague",
+              "current_time": "2023-11-02T02:08:02+01:00",
+              "gmt_offset": 3600,
+              "code": "CET",
+              "is_daylight_saving": false
+            },
+            "currency": {
+              "code": "CZK",
+              "name": "Czech Republic Koruna",
+              "plural": "Czech Republic korunas",
+              "symbol": "Kč",
+              "symbol_native": "Kč"
+            },
+            "connection": {
+              "asn": 141995,
+              "isp": "Contabo Asia Private Limited"
             }
           }
         }
@@ -217,17 +222,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2023-11-01T20:18:39.514Z",
-    "component-cached-in": "247 μs",
-    "component-resolved-in": "247 μs"
+    "component-cached-at": "2023-11-02T01:08:14.584Z",
+    "component-cached-in": "272 μs",
+    "component-resolved-in": "272 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2023-11-01T20:18:39.514Z",
-      "_cachedIn": "83 μs",
-      "_resolvedIn": "83 μs",
+      "_cachedAt": "2023-11-02T01:08:14.584Z",
+      "_cachedIn": "89 μs",
+      "_resolvedIn": "89 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -236,17 +241,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2023-11-01T20:18:39.514Z",
-        "component-cached-in": "83 μs",
-        "component-resolved-in": "83 μs"
+        "component-cached-at": "2023-11-02T01:08:14.584Z",
+        "component-cached-in": "89 μs",
+        "component-resolved-in": "89 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-11-01T20:18:39.514Z",
-          "_cachedIn": "41 μs",
-          "_resolvedIn": "41 μs",
+          "_cachedAt": "2023-11-02T01:08:14.584Z",
+          "_cachedIn": "43 μs",
+          "_resolvedIn": "43 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -254,7 +259,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2023-11-01T20:16:07.313Z",
+              "createdAt": "2023-11-02T01:05:44.503Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -9727,18 +9732,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2023-11-01T20:18:39.514Z",
-            "component-cached-in": "41 μs",
-            "component-resolved-in": "41 μs"
+            "component-cached-at": "2023-11-02T01:08:14.584Z",
+            "component-cached-in": "43 μs",
+            "component-resolved-in": "43 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-11-01T20:18:39.514Z",
-          "_cachedIn": "64 μs",
-          "_resolvedIn": "64 μs",
+          "_cachedAt": "2023-11-02T01:08:14.584Z",
+          "_cachedIn": "63 μs",
+          "_resolvedIn": "63 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9749,17 +9754,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2023-11-01T20:18:39.514Z",
-            "component-cached-in": "64 μs",
-            "component-resolved-in": "64 μs"
+            "component-cached-at": "2023-11-02T01:08:14.584Z",
+            "component-cached-in": "63 μs",
+            "component-resolved-in": "63 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2023-11-01T20:18:39.514Z",
-              "_cachedIn": "16 μs",
-              "_resolvedIn": "16 μs",
+              "_cachedAt": "2023-11-02T01:08:14.584Z",
+              "_cachedIn": "18 μs",
+              "_resolvedIn": "18 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9819,9 +9824,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2023-11-01T20:18:39.514Z",
-                "component-cached-in": "16 μs",
-                "component-resolved-in": "16 μs"
+                "component-cached-at": "2023-11-02T01:08:14.584Z",
+                "component-cached-in": "18 μs",
+                "component-resolved-in": "18 μs"
               },
               "components": {}
             }
@@ -9830,9 +9835,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2023-11-01T20:18:39.514Z",
-          "_cachedIn": "15 μs",
-          "_resolvedIn": "15 μs",
+          "_cachedAt": "2023-11-02T01:08:14.584Z",
+          "_cachedIn": "16 μs",
+          "_resolvedIn": "16 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9841,9 +9846,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2023-11-01T20:18:39.514Z",
-            "component-cached-in": "15 μs",
-            "component-resolved-in": "15 μs"
+            "component-cached-at": "2023-11-02T01:08:14.584Z",
+            "component-cached-in": "16 μs",
+            "component-resolved-in": "16 μs"
           },
           "components": {}
         }
