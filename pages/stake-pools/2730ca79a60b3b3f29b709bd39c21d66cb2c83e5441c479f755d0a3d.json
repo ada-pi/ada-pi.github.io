@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolDetailPage\",\"version\":1},\"props\":{\"id\":\"2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d\",\"language\":\"en\",\"slug\":\"/stake-pools/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d\",\"url\":\"https://armada-alliance.com/stake-pools/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d\",\"origin\":\"/stake-pools/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d\",\"title\":\"Armadillo (AMDLO)\",\"description\":\"Minimum fees, maximum reliability, helping to secure the Cardano blockchain\",\"aliases\":null,\"keywords\":null,\"template\":\"PoolDetailPage\",\"identities\":[{\"id\":\"Zebra_Danio\",\"role\":\"spo\"}],\"image\":\"https://raw.githubusercontent.com/Zebra-Danio/meta/main/logo.png\",\"updatedAt\":\"2021-08-03T18:54:14.000Z\",\"filePath\":\"/en/stake-pools/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d.md\",\"rank\":0,\"ticker\":\"AMDLO\",\"memberSince\":\"2021-06-01T00:00:00.000Z\",\"nodes\":[{\"role\":\"producer\",\"deviceId\":\"raspberry-pi-4-8gb\",\"storage\":\"WD Blue SN550 M.2 PCIe NVME SSD 500GB\"},{\"role\":\"relay\",\"deviceId\":\"raspberry-pi-4-8gb\",\"storage\":\"WD Blue SN550 M.2 PCIe NVME SSD 500GB\"},{\"role\":\"relay\",\"deviceId\":\"raspberry-pi-4-8gb\",\"storage\":\"WD Blue SN550 M.2 PCIe NVME SSD 500GB\"}],\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2024-04-01T04:13:53.461Z",
-  "_cachedIn": "63 ms",
-  "_resolvedIn": "63 ms",
+  "_cachedAt": "2024-04-01T08:16:06.878Z",
+  "_cachedIn": "4.04 ms",
+  "_resolvedIn": "4.04 ms",
   "id": "PoolDetailPage",
   "type": "PoolDetailPage",
   "status": "resolved",
@@ -70,7 +70,7 @@
       "totalStake": "15300566322",
       "blocksLifetime": 2,
       "delegators": 7,
-      "saturated": 0.00021496839416669094,
+      "saturated": 0.00021496841056505676,
       "pledge": "1000000000",
       "pledged": "2248670337",
       "taxRatio": 0,
@@ -206,17 +206,17 @@
   "attrs": {
     "component-type": "PoolDetailPage",
     "component-id": "PoolDetailPage",
-    "component-cached-at": "2024-04-01T04:13:53.461Z",
-    "component-cached-in": "63 ms",
-    "component-resolved-in": "63 ms"
+    "component-cached-at": "2024-04-01T08:16:06.878Z",
+    "component-cached-in": "4.04 ms",
+    "component-resolved-in": "4.04 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2024-04-01T04:13:53.461Z",
-      "_cachedIn": "58 ms",
-      "_resolvedIn": "58 ms",
+      "_cachedAt": "2024-04-01T08:16:06.877Z",
+      "_cachedIn": "2.72 ms",
+      "_resolvedIn": "2.72 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -225,17 +225,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2024-04-01T04:13:53.461Z",
-        "component-cached-in": "58 ms",
-        "component-resolved-in": "58 ms"
+        "component-cached-at": "2024-04-01T08:16:06.877Z",
+        "component-cached-in": "2.72 ms",
+        "component-resolved-in": "2.72 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2024-04-01T04:13:53.461Z",
-          "_cachedIn": "49 ms",
-          "_resolvedIn": "49 ms",
+          "_cachedAt": "2024-04-01T08:16:06.877Z",
+          "_cachedIn": "898 μs",
+          "_resolvedIn": "898 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -243,7 +243,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2024-04-01T04:13:38.827Z",
+              "createdAt": "2024-04-01T08:15:51.340Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -9716,18 +9716,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2024-04-01T04:13:53.461Z",
-            "component-cached-in": "49 ms",
-            "component-resolved-in": "49 ms"
+            "component-cached-at": "2024-04-01T08:16:06.877Z",
+            "component-cached-in": "898 μs",
+            "component-resolved-in": "898 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2024-04-01T04:13:53.461Z",
-          "_cachedIn": "49 ms",
-          "_resolvedIn": "49 ms",
+          "_cachedAt": "2024-04-01T08:16:06.877Z",
+          "_cachedIn": "1.02 ms",
+          "_resolvedIn": "1.02 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9738,17 +9738,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2024-04-01T04:13:53.461Z",
-            "component-cached-in": "49 ms",
-            "component-resolved-in": "49 ms"
+            "component-cached-at": "2024-04-01T08:16:06.877Z",
+            "component-cached-in": "1.02 ms",
+            "component-resolved-in": "1.02 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2024-04-01T04:13:53.461Z",
-              "_cachedIn": "569 μs",
-              "_resolvedIn": "569 μs",
+              "_cachedAt": "2024-04-01T08:16:06.877Z",
+              "_cachedIn": "118 μs",
+              "_resolvedIn": "118 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9808,9 +9808,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2024-04-01T04:13:53.461Z",
-                "component-cached-in": "569 μs",
-                "component-resolved-in": "569 μs"
+                "component-cached-at": "2024-04-01T08:16:06.877Z",
+                "component-cached-in": "118 μs",
+                "component-resolved-in": "118 μs"
               },
               "components": {}
             }
@@ -9819,9 +9819,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2024-04-01T04:13:53.460Z",
-          "_cachedIn": "48 ms",
-          "_resolvedIn": "48 ms",
+          "_cachedAt": "2024-04-01T08:16:06.877Z",
+          "_cachedIn": "619 μs",
+          "_resolvedIn": "619 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9830,9 +9830,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2024-04-01T04:13:53.460Z",
-            "component-cached-in": "48 ms",
-            "component-resolved-in": "48 ms"
+            "component-cached-at": "2024-04-01T08:16:06.877Z",
+            "component-cached-in": "619 μs",
+            "component-resolved-in": "619 μs"
           },
           "components": {}
         }
@@ -9841,9 +9841,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2024-04-01T04:13:53.460Z",
-      "_cachedIn": "57 ms",
-      "_resolvedIn": "57 ms",
+      "_cachedAt": "2024-04-01T08:16:06.877Z",
+      "_cachedIn": "2.52 ms",
+      "_resolvedIn": "2.52 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -9876,18 +9876,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2024-04-01T04:13:53.460Z",
-        "component-cached-in": "57 ms",
-        "component-resolved-in": "57 ms"
+        "component-cached-at": "2024-04-01T08:16:06.877Z",
+        "component-cached-in": "2.52 ms",
+        "component-resolved-in": "2.52 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2024-04-01T04:13:53.417Z",
-      "_cachedIn": "14 ms",
-      "_resolvedIn": "14 ms",
+      "_cachedAt": "2024-04-01T08:16:06.877Z",
+      "_cachedIn": "2.04 ms",
+      "_resolvedIn": "2.04 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -9899,18 +9899,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2024-04-01T04:13:53.417Z",
-        "component-cached-in": "14 ms",
-        "component-resolved-in": "14 ms"
+        "component-cached-at": "2024-04-01T08:16:06.877Z",
+        "component-cached-in": "2.04 ms",
+        "component-resolved-in": "2.04 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2024-04-01T04:13:53.460Z",
-      "_cachedIn": "57 ms",
-      "_resolvedIn": "57 ms",
+      "_cachedAt": "2024-04-01T08:16:06.877Z",
+      "_cachedIn": "2.52 ms",
+      "_resolvedIn": "2.52 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -9929,18 +9929,18 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2024-04-01T04:13:53.460Z",
-        "component-cached-in": "57 ms",
-        "component-resolved-in": "57 ms"
+        "component-cached-at": "2024-04-01T08:16:06.877Z",
+        "component-cached-in": "2.52 ms",
+        "component-resolved-in": "2.52 ms"
       },
       "components": {}
     },
     "PageSocials": {
       "_cacheKey": "{\"component\":{\"type\":\"PageSocials\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2024-04-01T04:13:53.417Z",
-      "_cachedIn": "14 ms",
-      "_resolvedIn": "14 ms",
+      "_cachedAt": "2024-04-01T08:16:06.877Z",
+      "_cachedIn": "2.05 ms",
+      "_resolvedIn": "2.05 ms",
       "id": "PageSocials",
       "type": "PageSocials",
       "status": "resolved",
@@ -9989,18 +9989,18 @@
       "attrs": {
         "component-type": "PageSocials",
         "component-id": "PageSocials",
-        "component-cached-at": "2024-04-01T04:13:53.417Z",
-        "component-cached-in": "14 ms",
-        "component-resolved-in": "14 ms"
+        "component-cached-at": "2024-04-01T08:16:06.877Z",
+        "component-cached-in": "2.05 ms",
+        "component-resolved-in": "2.05 ms"
       },
       "components": {}
     },
     "ContentSections": {
       "_cacheKey": "{\"component\":{\"type\":\"ContentSections\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2024-04-01T04:13:53.460Z",
-      "_cachedIn": "57 ms",
-      "_resolvedIn": "57 ms",
+      "_cachedAt": "2024-04-01T08:16:06.877Z",
+      "_cachedIn": "2.52 ms",
+      "_resolvedIn": "2.52 ms",
       "id": "ContentSections",
       "type": "ContentSections",
       "status": "resolved",
@@ -10009,18 +10009,18 @@
       "attrs": {
         "component-type": "ContentSections",
         "component-id": "ContentSections",
-        "component-cached-at": "2024-04-01T04:13:53.460Z",
-        "component-cached-in": "57 ms",
-        "component-resolved-in": "57 ms"
+        "component-cached-at": "2024-04-01T08:16:06.877Z",
+        "component-cached-in": "2.52 ms",
+        "component-resolved-in": "2.52 ms"
       },
       "components": {}
     },
     "QualityReportSection": {
       "_cacheKey": "{\"component\":{\"type\":\"QualityReportSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2024-04-01T04:13:53.417Z",
-      "_cachedIn": "14 ms",
-      "_resolvedIn": "14 ms",
+      "_cachedAt": "2024-04-01T08:16:06.877Z",
+      "_cachedIn": "2.05 ms",
+      "_resolvedIn": "2.05 ms",
       "id": "QualityReportSection",
       "type": "QualityReportSection",
       "status": "resolved",
@@ -10169,18 +10169,18 @@
       "attrs": {
         "component-type": "QualityReportSection",
         "component-id": "QualityReportSection",
-        "component-cached-at": "2024-04-01T04:13:53.417Z",
-        "component-cached-in": "14 ms",
-        "component-resolved-in": "14 ms"
+        "component-cached-at": "2024-04-01T08:16:06.877Z",
+        "component-cached-in": "2.05 ms",
+        "component-resolved-in": "2.05 ms"
       },
       "components": {}
     },
     "DelegationSection": {
       "_cacheKey": "{\"component\":{\"type\":\"DelegationSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2024-04-01T04:13:53.417Z",
-      "_cachedIn": "14 ms",
-      "_resolvedIn": "14 ms",
+      "_cachedAt": "2024-04-01T08:16:06.877Z",
+      "_cachedIn": "2.06 ms",
+      "_resolvedIn": "2.06 ms",
       "id": "DelegationSection",
       "type": "DelegationSection",
       "status": "resolved",
@@ -10203,7 +10203,7 @@
             "totalStake": "6753193380",
             "blocksLifetime": 4,
             "delegators": 26,
-            "saturated": 0.00009488035317414101,
+            "saturated": 0.0000948803604118689,
             "pledge": "1000000000",
             "pledged": "2015644521",
             "taxRatio": 0,
@@ -10372,7 +10372,7 @@
             "totalStake": "1508958768004",
             "blocksLifetime": 470,
             "delegators": 183,
-            "saturated": 0.021200420716137737,
+            "saturated": 0.02120042233336271,
             "pledge": "30000000000",
             "pledged": "33184754696",
             "taxRatio": 0.01,
@@ -10443,7 +10443,7 @@
                   },
                   "time_zone": {
                     "id": "Europe/Helsinki",
-                    "current_time": "2024-04-01T07:13:48+03:00",
+                    "current_time": "2024-04-01T11:16:01+03:00",
                     "gmt_offset": 10800,
                     "code": "EEST",
                     "is_daylight_saving": true
@@ -10500,7 +10500,7 @@
                   },
                   "time_zone": {
                     "id": "Europe/Helsinki",
-                    "current_time": "2024-04-01T07:13:48+03:00",
+                    "current_time": "2024-04-01T11:16:02+03:00",
                     "gmt_offset": 10800,
                     "code": "EEST",
                     "is_daylight_saving": true
@@ -10600,7 +10600,7 @@
             "totalStake": "1097230020",
             "blocksLifetime": 0,
             "delegators": 1,
-            "saturated": 0.000015415754584961966,
+            "saturated": 0.000015415755760917085,
             "pledge": "1000000000",
             "pledged": "1097230020",
             "taxRatio": 0,
@@ -10751,7 +10751,7 @@
             "totalStake": "57549810406",
             "blocksLifetime": 59,
             "delegators": 16,
-            "saturated": 0.0008085576747435205,
+            "saturated": 0.0008085577364224691,
             "pledge": "10000000000",
             "pledged": "21385979601",
             "taxRatio": 0.02,
@@ -10884,7 +10884,7 @@
             "totalStake": "5031549275",
             "blocksLifetime": 0,
             "delegators": 46,
-            "saturated": 0.00007069176689637357,
+            "saturated": 0.0000706917722889312,
             "pledge": "1000000000",
             "pledged": "1088555574",
             "taxRatio": 0,
@@ -10953,7 +10953,7 @@
                   },
                   "time_zone": {
                     "id": "Europe/Berlin",
-                    "current_time": "2024-04-01T06:13:48+02:00",
+                    "current_time": "2024-04-01T10:16:02+02:00",
                     "gmt_offset": 7200,
                     "code": "CEST",
                     "is_daylight_saving": true
@@ -11005,7 +11005,7 @@
                   },
                   "time_zone": {
                     "id": "Europe/Berlin",
-                    "current_time": "2024-04-01T06:13:48+02:00",
+                    "current_time": "2024-04-01T10:16:02+02:00",
                     "gmt_offset": 7200,
                     "code": "CEST",
                     "is_daylight_saving": true
@@ -11081,7 +11081,7 @@
             "totalStake": "516348186943",
             "blocksLifetime": 286,
             "delegators": 22,
-            "saturated": 0.007254538050556939,
+            "saturated": 0.007254538603952565,
             "pledge": "25000000000",
             "pledged": "42811922124",
             "taxRatio": 0,
@@ -11144,7 +11144,7 @@
                   },
                   "time_zone": {
                     "id": "America/Phoenix",
-                    "current_time": "2024-03-31T21:13:48-07:00",
+                    "current_time": "2024-04-01T01:16:02-07:00",
                     "gmt_offset": -25200,
                     "code": "MST",
                     "is_daylight_saving": false
@@ -11229,7 +11229,7 @@
             "totalStake": "15300566322",
             "blocksLifetime": 2,
             "delegators": 7,
-            "saturated": 0.00021496839416669094,
+            "saturated": 0.00021496841056505676,
             "pledge": "1000000000",
             "pledged": "2248670337",
             "taxRatio": 0,
@@ -11374,10 +11374,10 @@
             "ticker": "BERRY",
             "addr": "pool19f6guwy97mmnxg9dz65rxyj8hq07qxud886hamyu4fgfz7dj9gl",
             "website": "https://pipool.online",
-            "totalStake": "53593450930895",
-            "blocksLifetime": 7328,
-            "delegators": 23171,
-            "saturated": 0.7529720039120683,
+            "totalStake": "53586978844834",
+            "blocksLifetime": 7330,
+            "delegators": 23170,
+            "saturated": 0.7528811304646875,
             "pledge": "450000000000",
             "pledged": "546506055510",
             "taxRatio": 0.015,
@@ -11635,7 +11635,7 @@
             "totalStake": "88963765",
             "blocksLifetime": 3,
             "delegators": 6,
-            "saturated": 0.000001249914369089381,
+            "saturated": 0.0000012499144644362025,
             "pledge": "1000000000",
             "pledged": "1138058",
             "taxRatio": 0.03,
@@ -11803,10 +11803,10 @@
             "ticker": "SUDTI",
             "addr": "pool19k4azhj8tye5wwy5pfj7q6m938m8fg5nglds5dkhtfwnvcg3s0k",
             "website": "https://southtyrolpool.it",
-            "totalStake": "335848724063",
+            "totalStake": "335726587787",
             "blocksLifetime": 148,
             "delegators": 75,
-            "saturated": 0.004718574422369358,
+            "saturated": 0.004716858803927439,
             "pledge": "36000000000",
             "pledged": "39821090115",
             "taxRatio": 0.01,
@@ -11875,7 +11875,7 @@
                   },
                   "time_zone": {
                     "id": "Europe/Rome",
-                    "current_time": "2024-04-01T06:13:48+02:00",
+                    "current_time": "2024-04-01T10:16:02+02:00",
                     "gmt_offset": 7200,
                     "code": "CEST",
                     "is_daylight_saving": true
@@ -11991,7 +11991,7 @@
             "totalStake": "52361821662",
             "blocksLifetime": 3,
             "delegators": 41,
-            "saturated": 0.0007356679799582382,
+            "saturated": 0.0007356680360769654,
             "pledge": "32000000000",
             "pledged": "34065438468",
             "taxRatio": 0.0314,
@@ -12144,10 +12144,10 @@
             "ticker": "SNAKE",
             "addr": "pool1xs34q2z06a46nk7hl48d27dj5gzc6hh9trugw2ehs9ajsevqffx",
             "website": "https://www.adasnakepool.com",
-            "totalStake": "61629095662709",
+            "totalStake": "61603171470477",
             "blocksLifetime": 1740,
             "delegators": 591,
-            "saturated": 0.8658704161498115,
+            "saturated": 0.8655062550027285,
             "pledge": "30000000000",
             "pledged": "31897463231",
             "taxRatio": 0,
@@ -12206,7 +12206,7 @@
                   },
                   "time_zone": {
                     "id": "Europe/Berlin",
-                    "current_time": "2024-04-01T06:13:49+02:00",
+                    "current_time": "2024-04-01T10:16:02+02:00",
                     "gmt_offset": 7200,
                     "code": "CEST",
                     "is_daylight_saving": true
@@ -12258,7 +12258,7 @@
                   },
                   "time_zone": {
                     "id": "Europe/Berlin",
-                    "current_time": "2024-04-01T06:13:49+02:00",
+                    "current_time": "2024-04-01T10:16:02+02:00",
                     "gmt_offset": 7200,
                     "code": "CEST",
                     "is_daylight_saving": true
@@ -12323,9 +12323,9 @@
             "addr": "pool1x5dfpgp987e4jhxvgczr3wv50nv2pwd873tlx3uthvcasm422q6",
             "website": "https://quixote.systems",
             "totalStake": "32209382523715",
-            "blocksLifetime": 3534,
+            "blocksLifetime": 3535,
             "delegators": 1215,
-            "saturated": 0.45253221956026446,
+            "saturated": 0.45253225408063624,
             "pledge": "50000000000",
             "pledged": "77245127200",
             "taxRatio": 0.02,
@@ -12536,7 +12536,7 @@
             "totalStake": "289481848779",
             "blocksLifetime": 275,
             "delegators": 18,
-            "saturated": 0.00406713365131783,
+            "saturated": 0.004067133961569697,
             "pledge": "16500000000",
             "pledged": "16776113912",
             "taxRatio": 0.01,
@@ -12607,7 +12607,7 @@
                   },
                   "time_zone": {
                     "id": "America/Chicago",
-                    "current_time": "2024-03-31T23:13:49-05:00",
+                    "current_time": "2024-04-01T03:16:02-05:00",
                     "gmt_offset": -18000,
                     "code": "CDT",
                     "is_daylight_saving": true
@@ -12659,7 +12659,7 @@
                   },
                   "time_zone": {
                     "id": "America/Los_Angeles",
-                    "current_time": "2024-03-31T21:13:49-07:00",
+                    "current_time": "2024-04-01T01:16:02-07:00",
                     "gmt_offset": -25200,
                     "code": "PDT",
                     "is_daylight_saving": true
@@ -12711,7 +12711,7 @@
                   },
                   "time_zone": {
                     "id": "America/Chicago",
-                    "current_time": "2024-03-31T23:13:49-05:00",
+                    "current_time": "2024-04-01T03:16:03-05:00",
                     "gmt_offset": -18000,
                     "code": "CDT",
                     "is_daylight_saving": true
@@ -12791,7 +12791,7 @@
             "totalStake": "14918567503",
             "blocksLifetime": 589,
             "delegators": 47,
-            "saturated": 0.0002096014246725011,
+            "saturated": 0.00020960144066146008,
             "pledge": "1000000000",
             "pledged": "645450226",
             "taxRatio": 0.0499,
@@ -12859,7 +12859,7 @@
                   },
                   "time_zone": {
                     "id": "Europe/London",
-                    "current_time": "2024-04-01T05:13:49+01:00",
+                    "current_time": "2024-04-01T09:16:03+01:00",
                     "gmt_offset": 3600,
                     "code": "BST",
                     "is_daylight_saving": true
@@ -12901,7 +12901,7 @@
             "totalStake": "910342644",
             "blocksLifetime": 6,
             "delegators": 7,
-            "saturated": 0.00001279004268232599,
+            "saturated": 0.00001279004365798476,
             "pledge": "18000000000",
             "pledged": "0",
             "taxRatio": 0.01,
@@ -13015,7 +13015,7 @@
             "totalStake": "413212437550",
             "blocksLifetime": 172,
             "delegators": 18,
-            "saturated": 0.005805511526858082,
+            "saturated": 0.005805511969718076,
             "pledge": "250000000000",
             "pledged": "251249985560",
             "taxRatio": 0.013,
@@ -13176,7 +13176,7 @@
             "totalStake": "21927758500",
             "blocksLifetime": 0,
             "delegators": 3,
-            "saturated": 0.00030807846802652535,
+            "saturated": 0.0003080784915275774,
             "pledge": "1000000000",
             "pledged": "4957047843",
             "taxRatio": 0,
@@ -13300,7 +13300,7 @@
             "totalStake": "107560801748",
             "blocksLifetime": 78,
             "delegators": 5,
-            "saturated": 0.0015111971897277439,
+            "saturated": 0.0015111973050059198,
             "pledge": "100000000",
             "pledged": "21180973536",
             "taxRatio": 0,
@@ -13402,7 +13402,7 @@
             "totalStake": "1524629153231",
             "blocksLifetime": 187,
             "delegators": 21,
-            "saturated": 0.02142058495563899,
+            "saturated": 0.02142058658965868,
             "pledge": "1000000000",
             "pledged": "3121193746",
             "taxRatio": 0.01,
@@ -13525,7 +13525,7 @@
             "totalStake": "549371151294",
             "blocksLifetime": 776,
             "delegators": 50,
-            "saturated": 0.00771850085217894,
+            "saturated": 0.007718501440966892,
             "pledge": "30000000000",
             "pledged": "36663486493",
             "taxRatio": 0.01,
@@ -13674,9 +13674,9 @@
             "addr": "pool1svszcjg5xaxt5mq7ue2llm26ndt74dslvev04g6kwdmvyf0t657",
             "website": "https://orcada.io",
             "totalStake": "6460377950649",
-            "blocksLifetime": 598,
+            "blocksLifetime": 599,
             "delegators": 50,
-            "saturated": 0.09076638370986652,
+            "saturated": 0.09076639063376979,
             "pledge": "100000000000",
             "pledged": "122665952027",
             "taxRatio": 0.01,
@@ -13761,7 +13761,7 @@
                   },
                   "time_zone": {
                     "id": "Australia/Sydney",
-                    "current_time": "2024-04-01T15:13:49+11:00",
+                    "current_time": "2024-04-01T19:16:03+11:00",
                     "gmt_offset": 39600,
                     "code": "AEDT",
                     "is_daylight_saving": true
@@ -13813,7 +13813,7 @@
                   },
                   "time_zone": {
                     "id": "Australia/Sydney",
-                    "current_time": "2024-04-01T15:13:49+11:00",
+                    "current_time": "2024-04-01T19:16:03+11:00",
                     "gmt_offset": 39600,
                     "code": "AEDT",
                     "is_daylight_saving": true
@@ -13899,7 +13899,7 @@
             "totalStake": "21951408721",
             "blocksLifetime": 1,
             "delegators": 7,
-            "saturated": 0.0003084107465790353,
+            "saturated": 0.0003084107701054345,
             "pledge": "10000000000",
             "pledged": "10255877247",
             "taxRatio": 0,
@@ -13960,7 +13960,7 @@
                   },
                   "time_zone": {
                     "id": "Asia/Tokyo",
-                    "current_time": "2024-04-01T13:13:49+09:00",
+                    "current_time": "2024-04-01T17:16:03+09:00",
                     "gmt_offset": 32400,
                     "code": "JST",
                     "is_daylight_saving": false
@@ -14043,7 +14043,7 @@
             "totalStake": "25265678482",
             "blocksLifetime": 20,
             "delegators": 15,
-            "saturated": 0.00035497524839966227,
+            "saturated": 0.0003549752754781266,
             "pledge": "5000000000",
             "pledged": "7087186208",
             "taxRatio": 0.02,
@@ -14182,7 +14182,7 @@
             "totalStake": "465409359",
             "blocksLifetime": 0,
             "delegators": 4,
-            "saturated": 0.000006538862708011271,
+            "saturated": 0.00000653886320681326,
             "pledge": "24884130",
             "pledged": "117700906",
             "taxRatio": 0,
@@ -14275,7 +14275,7 @@
             "totalStake": "421429479",
             "blocksLifetime": 0,
             "delegators": 4,
-            "saturated": 0.000005920958508893498,
+            "saturated": 0.000005920958960560098,
             "pledge": "100000000",
             "pledged": "144698748",
             "taxRatio": 0.01,
@@ -14472,7 +14472,7 @@
             "totalStake": "43696716372",
             "blocksLifetime": 0,
             "delegators": 10,
-            "saturated": 0.0006139258345842941,
+            "saturated": 0.0006139258814162038,
             "pledge": "3000000000",
             "pledged": "3002007384",
             "taxRatio": 0,
@@ -14600,10 +14600,10 @@
             "ticker": "BONE",
             "addr": "pool1j742gcsul7u8c05rsqmkgpkvj5qadj0pew69nctu6crqy9wjjn4",
             "website": "https://poolbone.github.io/meta/",
-            "totalStake": "1421738241107",
+            "totalStake": "1421595089411",
             "blocksLifetime": 198,
             "delegators": 267,
-            "saturated": 0.019974998322558654,
+            "saturated": 0.019972988607510997,
             "pledge": "62000000000",
             "pledged": "97061981953",
             "taxRatio": 0.01,
@@ -14746,7 +14746,7 @@
             "totalStake": "79353837073",
             "blocksLifetime": 2,
             "delegators": 10,
-            "saturated": 0.0011148977474134591,
+            "saturated": 0.0011148978324608504,
             "pledge": "1000000000",
             "pledged": "10636586054",
             "taxRatio": 0.05,
@@ -14913,7 +14913,7 @@
             "totalStake": "190149389927",
             "blocksLifetime": 11,
             "delegators": 31,
-            "saturated": 0.0026715422255716914,
+            "saturated": 0.0026715424293640992,
             "pledge": "81000000000",
             "pledged": "89454190010",
             "taxRatio": 0.01,
@@ -14987,7 +14987,7 @@
                   },
                   "time_zone": {
                     "id": "Europe/Brussels",
-                    "current_time": "2024-04-01T06:13:49+02:00",
+                    "current_time": "2024-04-01T10:16:03+02:00",
                     "gmt_offset": 7200,
                     "code": "CEST",
                     "is_daylight_saving": true
@@ -15039,7 +15039,7 @@
                   },
                   "time_zone": {
                     "id": "Europe/Berlin",
-                    "current_time": "2024-04-01T06:13:49+02:00",
+                    "current_time": "2024-04-01T10:16:03+02:00",
                     "gmt_offset": 7200,
                     "code": "CEST",
                     "is_daylight_saving": true
@@ -15096,7 +15096,7 @@
                   },
                   "time_zone": {
                     "id": "America/Toronto",
-                    "current_time": "2024-04-01T00:13:49-04:00",
+                    "current_time": "2024-04-01T04:16:03-04:00",
                     "gmt_offset": -14400,
                     "code": "EDT",
                     "is_daylight_saving": true
@@ -15172,10 +15172,10 @@
             "ticker": "PIADA",
             "addr": "pool1hrv8gtrm0dgjg6zyss5uwa4nkruzfnh5vrdkr2sayj7x2nw6mjc",
             "website": "https://piada.io/",
-            "totalStake": "666628118898",
+            "totalStake": "666473836965",
             "blocksLifetime": 1227,
             "delegators": 168,
-            "saturated": 0.009365926280768745,
+            "saturated": 0.009363759379909888,
             "pledge": "100000000000",
             "pledged": "102805840538",
             "taxRatio": 0.015,
@@ -15362,10 +15362,10 @@
             "ticker": "OTG",
             "addr": "pool1eqj3dzpkcklc2r0v8pt8adrhrshq8m4zsev072ga7a52uj5wv5c",
             "website": "https://adamantium.online",
-            "totalStake": "12350338140795",
-            "blocksLifetime": 2303,
+            "totalStake": "12881730034691",
+            "blocksLifetime": 2304,
             "delegators": 652,
-            "saturated": 0.17351856798430576,
+            "saturated": 0.18098447943747148,
             "pledge": "500000000000",
             "pledged": "502698355602",
             "taxRatio": 0.01,
@@ -15520,7 +15520,7 @@
             "totalStake": "552541707008",
             "blocksLifetime": 125,
             "delegators": 22,
-            "saturated": 0.007763046214495014,
+            "saturated": 0.007763046806681006,
             "pledge": "18000000000",
             "pledged": "23974992917",
             "taxRatio": 0.025,
@@ -15691,7 +15691,7 @@
             "totalStake": "43919774333",
             "blocksLifetime": 1,
             "delegators": 19,
-            "saturated": 0.0006170597324200442,
+            "saturated": 0.000617059779491016,
             "pledge": "18000000000",
             "pledged": "22704957135",
             "taxRatio": 0.01,
@@ -15851,10 +15851,10 @@
             "ticker": "SEA",
             "addr": "pool17xh922cr9skc0fqk7sr8at6xx6eluh5qyv9p7ca2x0mtc3st0mz",
             "website": "https://seaside-staking.github.io/",
-            "totalStake": "1527812092573",
+            "totalStake": "1527311406658",
             "blocksLifetime": 350,
             "delegators": 893,
-            "saturated": 0.021465304304235645,
+            "saturated": 0.02145827145332976,
             "pledge": "40000000000",
             "pledged": "49263610167",
             "taxRatio": 0.02,
@@ -15927,7 +15927,7 @@
                   },
                   "time_zone": {
                     "id": "Europe/Paris",
-                    "current_time": "2024-04-01T06:13:49+02:00",
+                    "current_time": "2024-04-01T10:16:03+02:00",
                     "gmt_offset": 7200,
                     "code": "CEST",
                     "is_daylight_saving": true
@@ -15979,7 +15979,7 @@
                   },
                   "time_zone": {
                     "id": "Europe/Stockholm",
-                    "current_time": "2024-04-01T06:13:49+02:00",
+                    "current_time": "2024-04-01T10:16:03+02:00",
                     "gmt_offset": 7200,
                     "code": "CEST",
                     "is_daylight_saving": true
@@ -16062,7 +16062,7 @@
             "totalStake": "1001425841",
             "blocksLifetime": 0,
             "delegators": 1,
-            "saturated": 0.000014069734438996797,
+            "saturated": 0.000014069735512273886,
             "pledge": "1000000000",
             "pledged": "1001425841",
             "taxRatio": 0.005,
@@ -16265,7 +16265,7 @@
             "totalStake": "2308433899087",
             "blocksLifetime": 1092,
             "delegators": 149,
-            "saturated": 0.032432807902878974,
+            "saturated": 0.03243281037694057,
             "pledge": "100000000000",
             "pledged": "173572975596",
             "taxRatio": 0.01,
@@ -16422,10 +16422,10 @@
             "ticker": "OYSTR",
             "addr": "pool1l6aeyn35nkqkn9lqqlwqnpraakdzuukjrqprcrj3sctk6hhe32k",
             "website": "https://twitter.com/OystrPool",
-            "totalStake": "25897253981322",
-            "blocksLifetime": 867,
+            "totalStake": "25894344617997",
+            "blocksLifetime": 868,
             "delegators": 1208,
-            "saturated": 0.3638486958281448,
+            "saturated": 0.3638078478932426,
             "pledge": "500000000000",
             "pledged": "520517917513",
             "taxRatio": 0,
@@ -16542,7 +16542,7 @@
                   },
                   "time_zone": {
                     "id": "America/Toronto",
-                    "current_time": "2024-04-01T00:13:49-04:00",
+                    "current_time": "2024-04-01T04:16:03-04:00",
                     "gmt_offset": -14400,
                     "code": "EDT",
                     "is_daylight_saving": true
@@ -16594,7 +16594,7 @@
                   },
                   "time_zone": {
                     "id": "Europe/Berlin",
-                    "current_time": "2024-04-01T06:13:49+02:00",
+                    "current_time": "2024-04-01T10:16:03+02:00",
                     "gmt_offset": 7200,
                     "code": "CEST",
                     "is_daylight_saving": true
@@ -16703,7 +16703,7 @@
           "totalStake": "15300566322",
           "blocksLifetime": 2,
           "delegators": 7,
-          "saturated": 0.00021496839416669094,
+          "saturated": 0.00021496841056505676,
           "pledge": "1000000000",
           "pledged": "2248670337",
           "taxRatio": 0,
@@ -16839,9 +16839,9 @@
       "attrs": {
         "component-type": "DelegationSection",
         "component-id": "DelegationSection",
-        "component-cached-at": "2024-04-01T04:13:53.417Z",
-        "component-cached-in": "14 ms",
-        "component-resolved-in": "14 ms"
+        "component-cached-at": "2024-04-01T08:16:06.877Z",
+        "component-cached-in": "2.06 ms",
+        "component-resolved-in": "2.06 ms"
       },
       "components": {}
     }
