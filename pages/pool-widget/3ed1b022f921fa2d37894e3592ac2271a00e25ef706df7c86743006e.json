@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"ARRK POOL ARRK\",\"slug\":\"/pool-widget/3ed1b022f921fa2d37894e3592ac2271a00e25ef706df7c86743006e\",\"template\":\"PoolWidgetPage\",\"poolId\":\"3ed1b022f921fa2d37894e3592ac2271a00e25ef706df7c86743006e\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2024-11-14T20:18:00.413Z",
-  "_cachedIn": "189 μs",
-  "_resolvedIn": "189 μs",
+  "_cachedAt": "2024-11-15T01:16:37.904Z",
+  "_cachedIn": "216 μs",
+  "_resolvedIn": "216 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -70,6 +70,70 @@
       ],
       "relays": [
         {
+          "addr": "r1.arrk.live",
+          "port": 3001,
+          "data": {
+            "ip": "172.59.197.124",
+            "type": "ipv4",
+            "continent_code": "NA",
+            "continent_name": "North America",
+            "country_code": "US",
+            "country_name": "United States",
+            "region_code": "TX",
+            "region_name": "Texas",
+            "city": "Dallas",
+            "zip": "75219",
+            "latitude": 32.8054313659668,
+            "longitude": -96.8142318725586,
+            "msa": "19100",
+            "dma": "623",
+            "radius": null,
+            "ip_routing_type": "mobile gateway",
+            "connection_type": "mobile wireless",
+            "location": {
+              "geoname_id": 4684888,
+              "capital": "Washington D.C.",
+              "languages": [
+                {
+                  "code": "en",
+                  "name": "English",
+                  "native": "English"
+                }
+              ],
+              "country_flag": "https://assets.ipstack.com/flags/us.svg",
+              "country_flag_emoji": "🇺🇸",
+              "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
+              "calling_code": "1",
+              "is_eu": false
+            },
+            "time_zone": {
+              "id": "America/Chicago",
+              "current_time": "2024-11-14T19:16:31-06:00",
+              "gmt_offset": -21600,
+              "code": "CST",
+              "is_daylight_saving": false
+            },
+            "currency": {
+              "code": "USD",
+              "name": "US Dollar",
+              "plural": "US dollars",
+              "symbol": "$",
+              "symbol_native": "$"
+            },
+            "connection": {
+              "asn": 21928,
+              "isp": "T-Mobile",
+              "sld": null,
+              "tld": null,
+              "carrier": "t-mobile",
+              "home": true,
+              "organization_type": "Internet Service Provider",
+              "isic_code": "J6120",
+              "naics_code": "517312"
+            }
+          }
+        },
+        {
           "addr": "r2.arrk.live",
           "port": 3002,
           "data": {
@@ -108,7 +172,7 @@
             },
             "time_zone": {
               "id": "America/Chicago",
-              "current_time": "2024-11-14T14:17:53-06:00",
+              "current_time": "2024-11-14T19:16:31-06:00",
               "gmt_offset": -21600,
               "code": "CST",
               "is_daylight_saving": false
@@ -137,7 +201,7 @@
           "addr": "r4.arrk.live",
           "port": 3004,
           "data": {
-            "ip": "172.59.193.46",
+            "ip": "172.59.197.124",
             "type": "ipv4",
             "continent_code": "NA",
             "continent_name": "North America",
@@ -172,7 +236,7 @@
             },
             "time_zone": {
               "id": "America/Chicago",
-              "current_time": "2024-11-14T14:17:53-06:00",
+              "current_time": "2024-11-14T19:16:32-06:00",
               "gmt_offset": -21600,
               "code": "CST",
               "is_daylight_saving": false
@@ -247,17 +311,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2024-11-14T20:18:00.413Z",
-    "component-cached-in": "189 μs",
-    "component-resolved-in": "189 μs"
+    "component-cached-at": "2024-11-15T01:16:37.904Z",
+    "component-cached-in": "216 μs",
+    "component-resolved-in": "216 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2024-11-14T20:18:00.413Z",
-      "_cachedIn": "50 μs",
-      "_resolvedIn": "50 μs",
+      "_cachedAt": "2024-11-15T01:16:37.904Z",
+      "_cachedIn": "66 μs",
+      "_resolvedIn": "66 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -266,17 +330,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2024-11-14T20:18:00.413Z",
-        "component-cached-in": "50 μs",
-        "component-resolved-in": "50 μs"
+        "component-cached-at": "2024-11-15T01:16:37.904Z",
+        "component-cached-in": "66 μs",
+        "component-resolved-in": "66 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2024-11-14T20:18:00.413Z",
-          "_cachedIn": "28 μs",
-          "_resolvedIn": "28 μs",
+          "_cachedAt": "2024-11-15T01:16:37.904Z",
+          "_cachedIn": "39 μs",
+          "_resolvedIn": "39 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -284,7 +348,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2024-11-14T20:17:40.961Z",
+              "createdAt": "2024-11-15T01:16:19.602Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -9738,18 +9802,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2024-11-14T20:18:00.413Z",
-            "component-cached-in": "28 μs",
-            "component-resolved-in": "28 μs"
+            "component-cached-at": "2024-11-15T01:16:37.904Z",
+            "component-cached-in": "39 μs",
+            "component-resolved-in": "39 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2024-11-14T20:18:00.413Z",
-          "_cachedIn": "39 μs",
-          "_resolvedIn": "39 μs",
+          "_cachedAt": "2024-11-15T01:16:37.904Z",
+          "_cachedIn": "53 μs",
+          "_resolvedIn": "53 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9760,17 +9824,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2024-11-14T20:18:00.413Z",
-            "component-cached-in": "39 μs",
-            "component-resolved-in": "39 μs"
+            "component-cached-at": "2024-11-15T01:16:37.904Z",
+            "component-cached-in": "53 μs",
+            "component-resolved-in": "53 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2024-11-14T20:18:00.413Z",
-              "_cachedIn": "10 μs",
-              "_resolvedIn": "10 μs",
+              "_cachedAt": "2024-11-15T01:16:37.904Z",
+              "_cachedIn": "15 μs",
+              "_resolvedIn": "15 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9830,9 +9894,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2024-11-14T20:18:00.413Z",
-                "component-cached-in": "10 μs",
-                "component-resolved-in": "10 μs"
+                "component-cached-at": "2024-11-15T01:16:37.904Z",
+                "component-cached-in": "15 μs",
+                "component-resolved-in": "15 μs"
               },
               "components": {}
             }
@@ -9841,9 +9905,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2024-11-14T20:18:00.413Z",
-          "_cachedIn": "9.87 μs",
-          "_resolvedIn": "9.87 μs",
+          "_cachedAt": "2024-11-15T01:16:37.904Z",
+          "_cachedIn": "15 μs",
+          "_resolvedIn": "15 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9852,9 +9916,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2024-11-14T20:18:00.413Z",
-            "component-cached-in": "9.87 μs",
-            "component-resolved-in": "9.87 μs"
+            "component-cached-at": "2024-11-15T01:16:37.904Z",
+            "component-cached-in": "15 μs",
+            "component-resolved-in": "15 μs"
           },
           "components": {}
         }
