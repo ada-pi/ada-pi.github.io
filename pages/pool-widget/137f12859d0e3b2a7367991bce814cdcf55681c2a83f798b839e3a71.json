@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"r89.io Stake Pool R89\",\"slug\":\"/pool-widget/137f12859d0e3b2a7367991bce814cdcf55681c2a83f798b839e3a71\",\"template\":\"PoolWidgetPage\",\"poolId\":\"137f12859d0e3b2a7367991bce814cdcf55681c2a83f798b839e3a71\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2024-12-23T16:24:24.269Z",
-  "_cachedIn": "309 μs",
-  "_resolvedIn": "309 μs",
+  "_cachedAt": "2024-12-23T20:23:47.002Z",
+  "_cachedIn": "252 μs",
+  "_resolvedIn": "252 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -72,7 +72,72 @@
           "isBackup": true
         }
       ],
-      "relays": [],
+      "relays": [
+        {
+          "addr": "r2.mrbee.io",
+          "port": 3002,
+          "data": {
+            "ip": "78.142.96.66",
+            "type": "ipv4",
+            "continent_code": "EU",
+            "continent_name": "Europe",
+            "country_code": "AT",
+            "country_name": "Austria",
+            "region_code": "3",
+            "region_name": "Lower Austria",
+            "city": "Baden",
+            "zip": "2500",
+            "latitude": 48.00613021850586,
+            "longitude": 16.232379913330078,
+            "msa": null,
+            "dma": null,
+            "radius": null,
+            "ip_routing_type": "fixed",
+            "connection_type": "dsl",
+            "location": {
+              "geoname_id": 2782067,
+              "capital": "Vienna",
+              "languages": [
+                {
+                  "code": "de",
+                  "name": "German",
+                  "native": "Deutsch"
+                }
+              ],
+              "country_flag": "https://assets.ipstack.com/flags/at.svg",
+              "country_flag_emoji": "🇦🇹",
+              "country_flag_emoji_unicode": "U+1F1E6 U+1F1F9",
+              "calling_code": "43",
+              "is_eu": true
+            },
+            "time_zone": {
+              "id": "Europe/Vienna",
+              "current_time": "2024-12-23T21:17:10+01:00",
+              "gmt_offset": 3600,
+              "code": "CET",
+              "is_daylight_saving": false
+            },
+            "currency": {
+              "code": "EUR",
+              "name": "Euro",
+              "plural": "euros",
+              "symbol": "€",
+              "symbol_native": "€"
+            },
+            "connection": {
+              "asn": 39912,
+              "isp": "oja.at Gmbh",
+              "sld": "ascus",
+              "tld": "at",
+              "carrier": "oja.at gmbh",
+              "home": null,
+              "organization_type": null,
+              "isic_code": null,
+              "naics_code": null
+            }
+          }
+        }
+      ],
       "metadata": {
         "name": "🍄 Mushrooms & Bees 🐝",
         "description": "100% self-hosted on bare-metal, solar-powered Stake Pool using extremely energy-efficient ARM architecture. Austria based SSPO promoting naturally aligned beekeeping and mushroom cultivation. Stake to get eco-friendly produced honey and mushrooms. 🇦🇹☀️🌿🐝🍄",
@@ -121,17 +186,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2024-12-23T16:24:24.269Z",
-    "component-cached-in": "309 μs",
-    "component-resolved-in": "309 μs"
+    "component-cached-at": "2024-12-23T20:23:47.002Z",
+    "component-cached-in": "252 μs",
+    "component-resolved-in": "252 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2024-12-23T16:24:24.269Z",
-      "_cachedIn": "106 μs",
-      "_resolvedIn": "106 μs",
+      "_cachedAt": "2024-12-23T20:23:47.002Z",
+      "_cachedIn": "75 μs",
+      "_resolvedIn": "75 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -140,17 +205,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2024-12-23T16:24:24.269Z",
-        "component-cached-in": "106 μs",
-        "component-resolved-in": "106 μs"
+        "component-cached-at": "2024-12-23T20:23:47.002Z",
+        "component-cached-in": "75 μs",
+        "component-resolved-in": "75 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2024-12-23T16:24:24.269Z",
-          "_cachedIn": "60 μs",
-          "_resolvedIn": "60 μs",
+          "_cachedAt": "2024-12-23T20:23:47.002Z",
+          "_cachedIn": "40 μs",
+          "_resolvedIn": "40 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -158,7 +223,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2024-12-23T16:18:50.458Z",
+              "createdAt": "2024-12-23T20:16:30.456Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -3139,10 +3204,10 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://www.beadapool.com/media/logoklein.png",
+                "image": "https://cdn.adapools.org/pool_logo/a803d6a5b213b52b38c4d7b97c934b904810c36e40a9d7260670d618.png",
                 "updatedAt": "2022-02-26T12:00:13.000Z",
                 "filePath": "/en/stake-pools/a803d6a5b213b52b38c4d7b97c934b904810c36e40a9d7260670d618.md",
-                "rank": 13
+                "rank": 25
               },
               {
                 "id": "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65",
@@ -3260,7 +3325,7 @@
                 "image": "https://raw.githubusercontent.com/Seaside-Staking/m/main/Logo_comp.png",
                 "updatedAt": "2022-03-28T23:09:00.000Z",
                 "filePath": "/en/stake-pools/f1ae552b032c2d87a416f4067eaf4636b3fe5e80230a1f63aa33f6bc.md",
-                "rank": 0
+                "rank": 13
               },
               {
                 "id": "fa199852f76ae97d4844f4134f7f48014d1c413473e84db28207ba59",
@@ -9612,18 +9677,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2024-12-23T16:24:24.269Z",
-            "component-cached-in": "60 μs",
-            "component-resolved-in": "60 μs"
+            "component-cached-at": "2024-12-23T20:23:47.002Z",
+            "component-cached-in": "40 μs",
+            "component-resolved-in": "40 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2024-12-23T16:24:24.269Z",
-          "_cachedIn": "90 μs",
-          "_resolvedIn": "90 μs",
+          "_cachedAt": "2024-12-23T20:23:47.002Z",
+          "_cachedIn": "58 μs",
+          "_resolvedIn": "58 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9634,17 +9699,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2024-12-23T16:24:24.269Z",
-            "component-cached-in": "90 μs",
-            "component-resolved-in": "90 μs"
+            "component-cached-at": "2024-12-23T20:23:47.002Z",
+            "component-cached-in": "58 μs",
+            "component-resolved-in": "58 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2024-12-23T16:24:24.269Z",
-              "_cachedIn": "35 μs",
-              "_resolvedIn": "35 μs",
+              "_cachedAt": "2024-12-23T20:23:47.002Z",
+              "_cachedIn": "17 μs",
+              "_resolvedIn": "17 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9704,9 +9769,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2024-12-23T16:24:24.269Z",
-                "component-cached-in": "35 μs",
-                "component-resolved-in": "35 μs"
+                "component-cached-at": "2024-12-23T20:23:47.002Z",
+                "component-cached-in": "17 μs",
+                "component-resolved-in": "17 μs"
               },
               "components": {}
             }
@@ -9715,9 +9780,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2024-12-23T16:24:24.269Z",
-          "_cachedIn": "20 μs",
-          "_resolvedIn": "20 μs",
+          "_cachedAt": "2024-12-23T20:23:47.002Z",
+          "_cachedIn": "13 μs",
+          "_resolvedIn": "13 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9726,9 +9791,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2024-12-23T16:24:24.269Z",
-            "component-cached-in": "20 μs",
-            "component-resolved-in": "20 μs"
+            "component-cached-at": "2024-12-23T20:23:47.002Z",
+            "component-cached-in": "13 μs",
+            "component-resolved-in": "13 μs"
           },
           "components": {}
         }
