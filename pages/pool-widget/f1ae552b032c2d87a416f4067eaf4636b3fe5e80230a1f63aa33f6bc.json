@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"SeasideStaking SEA\",\"slug\":\"/pool-widget/f1ae552b032c2d87a416f4067eaf4636b3fe5e80230a1f63aa33f6bc\",\"template\":\"PoolWidgetPage\",\"poolId\":\"f1ae552b032c2d87a416f4067eaf4636b3fe5e80230a1f63aa33f6bc\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2024-12-23T20:23:47.104Z",
-  "_cachedIn": "144 μs",
-  "_resolvedIn": "144 μs",
+  "_cachedAt": "2024-12-24T01:12:46.102Z",
+  "_cachedIn": "170 μs",
+  "_resolvedIn": "170 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -29,10 +29,10 @@
       "ticker": "SEA",
       "addr": "pool17xh922cr9skc0fqk7sr8at6xx6eluh5qyv9p7ca2x0mtc3st0mz",
       "website": "https://seaside-staking.github.io/",
-      "totalStake": "1777636755764",
+      "totalStake": "1779022775467",
       "blocksLifetime": 409,
       "delegators": 858,
-      "saturated": 0.023722704486129825,
+      "saturated": 0.023741201029768233,
       "pledge": "40000000000",
       "pledged": "59771025253",
       "taxRatio": 0.02,
@@ -70,7 +70,136 @@
           "storage": "200gb"
         }
       ],
-      "relays": [],
+      "relays": [
+        {
+          "addr": "ra.seaside-staking.best",
+          "port": 6000,
+          "data": {
+            "ip": "129.151.224.211",
+            "type": "ipv4",
+            "continent_code": "NA",
+            "continent_name": "North America",
+            "country_code": "US",
+            "country_name": "United States",
+            "region_code": "TX",
+            "region_name": "Texas",
+            "city": "Austin",
+            "zip": "78703",
+            "latitude": 30.289730072021484,
+            "longitude": -97.7664794921875,
+            "msa": "12420",
+            "dma": "635",
+            "radius": null,
+            "ip_routing_type": "fixed",
+            "connection_type": "tx",
+            "location": {
+              "geoname_id": 4671654,
+              "capital": "Washington D.C.",
+              "languages": [
+                {
+                  "code": "en",
+                  "name": "English",
+                  "native": "English"
+                }
+              ],
+              "country_flag": "https://assets.ipstack.com/flags/us.svg",
+              "country_flag_emoji": "🇺🇸",
+              "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
+              "calling_code": "1",
+              "is_eu": false
+            },
+            "time_zone": {
+              "id": "America/Chicago",
+              "current_time": "2024-12-23T19:12:42-06:00",
+              "gmt_offset": -21600,
+              "code": "CST",
+              "is_daylight_saving": false
+            },
+            "currency": {
+              "code": "USD",
+              "name": "US Dollar",
+              "plural": "US dollars",
+              "symbol": "$",
+              "symbol_native": "$"
+            },
+            "connection": {
+              "asn": 31898,
+              "isp": "Oracle Corporation",
+              "sld": null,
+              "tld": null,
+              "carrier": "oracle corporation",
+              "home": false,
+              "organization_type": "Publishing",
+              "isic_code": "J5820",
+              "naics_code": "511210"
+            }
+          }
+        },
+        {
+          "addr": "ro.seaside-staking.best",
+          "port": 5999,
+          "data": {
+            "ip": "141.147.0.252",
+            "type": "ipv4",
+            "continent_code": "EU",
+            "continent_name": "Europe",
+            "country_code": "SE",
+            "country_name": "Sweden",
+            "region_code": "AB",
+            "region_name": "Stockholm",
+            "city": "Upplands Väsby",
+            "zip": "169 57",
+            "latitude": 59.36246109008789,
+            "longitude": 18.002439498901367,
+            "msa": null,
+            "dma": null,
+            "radius": null,
+            "ip_routing_type": null,
+            "connection_type": null,
+            "location": {
+              "geoname_id": 2666238,
+              "capital": "Stockholm",
+              "languages": [
+                {
+                  "code": "sv",
+                  "name": "Swedish",
+                  "native": "Svenska"
+                }
+              ],
+              "country_flag": "https://assets.ipstack.com/flags/se.svg",
+              "country_flag_emoji": "🇸🇪",
+              "country_flag_emoji_unicode": "U+1F1F8 U+1F1EA",
+              "calling_code": "46",
+              "is_eu": true
+            },
+            "time_zone": {
+              "id": "Europe/Stockholm",
+              "current_time": "2024-12-24T02:12:42+01:00",
+              "gmt_offset": 3600,
+              "code": "CET",
+              "is_daylight_saving": false
+            },
+            "currency": {
+              "code": "SEK",
+              "name": "Swedish Krona",
+              "plural": "Swedish kronor",
+              "symbol": "Skr",
+              "symbol_native": "kr"
+            },
+            "connection": {
+              "asn": 31898,
+              "isp": "Oracle Corporation",
+              "sld": null,
+              "tld": null,
+              "carrier": "oracle corporation",
+              "home": false,
+              "organization_type": "Publishing",
+              "isic_code": "J5820",
+              "naics_code": "511210"
+            }
+          }
+        }
+      ],
       "metadata": {
         "name": "SeasideStaking",
         "description": "Stake by the sea from St Kilda Australia. Reliable, secure, independent",
@@ -117,23 +246,23 @@
         }
       },
       "twitter": "SeasideStaking",
-      "qualityScore": 87.5
+      "qualityScore": 100
     }
   },
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2024-12-23T20:23:47.104Z",
-    "component-cached-in": "144 μs",
-    "component-resolved-in": "144 μs"
+    "component-cached-at": "2024-12-24T01:12:46.102Z",
+    "component-cached-in": "170 μs",
+    "component-resolved-in": "170 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2024-12-23T20:23:47.104Z",
-      "_cachedIn": "48 μs",
-      "_resolvedIn": "48 μs",
+      "_cachedAt": "2024-12-24T01:12:46.102Z",
+      "_cachedIn": "53 μs",
+      "_resolvedIn": "53 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -142,17 +271,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2024-12-23T20:23:47.104Z",
-        "component-cached-in": "48 μs",
-        "component-resolved-in": "48 μs"
+        "component-cached-at": "2024-12-24T01:12:46.102Z",
+        "component-cached-in": "53 μs",
+        "component-resolved-in": "53 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2024-12-23T20:23:47.104Z",
-          "_cachedIn": "27 μs",
-          "_resolvedIn": "27 μs",
+          "_cachedAt": "2024-12-24T01:12:46.102Z",
+          "_cachedIn": "28 μs",
+          "_resolvedIn": "28 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -160,7 +289,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2024-12-23T20:16:30.456Z",
+              "createdAt": "2024-12-24T01:12:30.261Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2565,7 +2694,7 @@
                 "image": "https://mrbee.io/img/logo.png",
                 "updatedAt": "2024-09-12T22:55:42.000Z",
                 "filePath": "/en/stake-pools/137f12859d0e3b2a7367991bce814cdcf55681c2a83f798b839e3a71.md",
-                "rank": 38
+                "rank": 25
               },
               {
                 "id": "1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed",
@@ -2744,7 +2873,7 @@
                 "image": "https://asnakep.github.io/repo/Snake-icon_64x64.png",
                 "updatedAt": "2023-01-24T16:27:59.000Z",
                 "filePath": "/en/stake-pools/342350284fd76ba9dbd7fd4ed579b2a2058d5ee558f8872b37817b28.md",
-                "rank": 38
+                "rank": 25
               },
               {
                 "id": "351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8",
@@ -2788,7 +2917,7 @@
                 "image": "https://user-images.githubusercontent.com/77803935/133521830-beac8625-549f-43db-a3df-38157a972918.jpg",
                 "updatedAt": "2022-02-04T01:20:21.000Z",
                 "filePath": "/en/stake-pools/3ed1b022f921fa2d37894e3592ac2271a00e25ef706df7c86743006e.md",
-                "rank": 25
+                "rank": 13
               },
               {
                 "id": "4f3410f074e7363091a1cc1c21b128ae423d1cce897bd19478e534bb",
@@ -3141,10 +3270,10 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/a803d6a5b213b52b38c4d7b97c934b904810c36e40a9d7260670d618.png",
+                "image": "https://www.beadapool.com/media/logoklein.png",
                 "updatedAt": "2022-02-26T12:00:13.000Z",
                 "filePath": "/en/stake-pools/a803d6a5b213b52b38c4d7b97c934b904810c36e40a9d7260670d618.md",
-                "rank": 25
+                "rank": 13
               },
               {
                 "id": "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65",
@@ -3262,7 +3391,7 @@
                 "image": "https://raw.githubusercontent.com/Seaside-Staking/m/main/Logo_comp.png",
                 "updatedAt": "2022-03-28T23:09:00.000Z",
                 "filePath": "/en/stake-pools/f1ae552b032c2d87a416f4067eaf4636b3fe5e80230a1f63aa33f6bc.md",
-                "rank": 13
+                "rank": 0
               },
               {
                 "id": "fa199852f76ae97d4844f4134f7f48014d1c413473e84db28207ba59",
@@ -9614,18 +9743,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2024-12-23T20:23:47.104Z",
-            "component-cached-in": "27 μs",
-            "component-resolved-in": "27 μs"
+            "component-cached-at": "2024-12-24T01:12:46.102Z",
+            "component-cached-in": "28 μs",
+            "component-resolved-in": "28 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2024-12-23T20:23:47.104Z",
-          "_cachedIn": "38 μs",
-          "_resolvedIn": "38 μs",
+          "_cachedAt": "2024-12-24T01:12:46.102Z",
+          "_cachedIn": "39 μs",
+          "_resolvedIn": "39 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9636,17 +9765,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2024-12-23T20:23:47.104Z",
-            "component-cached-in": "38 μs",
-            "component-resolved-in": "38 μs"
+            "component-cached-at": "2024-12-24T01:12:46.102Z",
+            "component-cached-in": "39 μs",
+            "component-resolved-in": "39 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2024-12-23T20:23:47.104Z",
-              "_cachedIn": "10 μs",
-              "_resolvedIn": "10 μs",
+              "_cachedAt": "2024-12-24T01:12:46.102Z",
+              "_cachedIn": "11 μs",
+              "_resolvedIn": "11 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9706,9 +9835,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2024-12-23T20:23:47.104Z",
-                "component-cached-in": "10 μs",
-                "component-resolved-in": "10 μs"
+                "component-cached-at": "2024-12-24T01:12:46.102Z",
+                "component-cached-in": "11 μs",
+                "component-resolved-in": "11 μs"
               },
               "components": {}
             }
@@ -9717,9 +9846,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2024-12-23T20:23:47.104Z",
-          "_cachedIn": "8.78 μs",
-          "_resolvedIn": "8.78 μs",
+          "_cachedAt": "2024-12-24T01:12:46.102Z",
+          "_cachedIn": "8.76 μs",
+          "_resolvedIn": "8.76 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9728,9 +9857,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2024-12-23T20:23:47.104Z",
-            "component-cached-in": "8.78 μs",
-            "component-resolved-in": "8.78 μs"
+            "component-cached-at": "2024-12-24T01:12:46.102Z",
+            "component-cached-in": "8.76 μs",
+            "component-resolved-in": "8.76 μs"
           },
           "components": {}
         }
