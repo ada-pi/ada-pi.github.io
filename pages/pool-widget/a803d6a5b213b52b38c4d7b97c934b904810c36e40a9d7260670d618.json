@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"BEADA Cardano stake pool BEADA\",\"slug\":\"/pool-widget/a803d6a5b213b52b38c4d7b97c934b904810c36e40a9d7260670d618\",\"template\":\"PoolWidgetPage\",\"poolId\":\"a803d6a5b213b52b38c4d7b97c934b904810c36e40a9d7260670d618\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2024-12-25T16:20:27.526Z",
-  "_cachedIn": "155 μs",
-  "_resolvedIn": "155 μs",
+  "_cachedAt": "2024-12-25T20:16:21.827Z",
+  "_cachedIn": "135 μs",
+  "_resolvedIn": "135 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -111,7 +111,7 @@
             },
             "time_zone": {
               "id": "Europe/Brussels",
-              "current_time": "2024-12-25T17:19:53+01:00",
+              "current_time": "2024-12-25T21:16:17+01:00",
               "gmt_offset": 3600,
               "code": "CET",
               "is_daylight_saving": false
@@ -175,7 +175,7 @@
             },
             "time_zone": {
               "id": "America/Los_Angeles",
-              "current_time": "2024-12-25T08:19:53-08:00",
+              "current_time": "2024-12-25T12:16:17-08:00",
               "gmt_offset": -28800,
               "code": "PST",
               "is_daylight_saving": false
@@ -185,6 +185,75 @@
               "name": "US Dollar",
               "plural": "US dollars",
               "symbol": "$",
+              "symbol_native": "$"
+            },
+            "connection": {
+              "asn": 31898,
+              "isp": "Oracle Corporation",
+              "sld": null,
+              "tld": null,
+              "carrier": "oracle corporation",
+              "home": false,
+              "organization_type": "Data Services",
+              "isic_code": "J6311",
+              "naics_code": "518210"
+            }
+          }
+        },
+        {
+          "addr": "beadapool3.ddns.net",
+          "port": 6000,
+          "data": {
+            "ip": "140.238.157.78",
+            "type": "ipv4",
+            "continent_code": "NA",
+            "continent_name": "North America",
+            "country_code": "CA",
+            "country_name": "Canada",
+            "region_code": "ON",
+            "region_name": "Ontario",
+            "city": "Toronto",
+            "zip": "M3H 6A7",
+            "latitude": 43.70317077636719,
+            "longitude": -79.51219177246094,
+            "msa": null,
+            "dma": null,
+            "radius": null,
+            "ip_routing_type": "fixed",
+            "connection_type": "tx",
+            "location": {
+              "geoname_id": 6167865,
+              "capital": "Ottawa",
+              "languages": [
+                {
+                  "code": "en",
+                  "name": "English",
+                  "native": "English"
+                },
+                {
+                  "code": "fr",
+                  "name": "French",
+                  "native": "Français"
+                }
+              ],
+              "country_flag": "https://assets.ipstack.com/flags/ca.svg",
+              "country_flag_emoji": "🇨🇦",
+              "country_flag_emoji_unicode": "U+1F1E8 U+1F1E6",
+              "calling_code": "1",
+              "is_eu": false
+            },
+            "time_zone": {
+              "id": "America/Toronto",
+              "current_time": "2024-12-25T15:16:18-05:00",
+              "gmt_offset": -18000,
+              "code": "EST",
+              "is_daylight_saving": false
+            },
+            "currency": {
+              "code": "CAD",
+              "name": "Canadian Dollar",
+              "plural": "Canadian dollars",
+              "symbol": "CA$",
               "symbol_native": "$"
             },
             "connection": {
@@ -249,17 +318,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2024-12-25T16:20:27.526Z",
-    "component-cached-in": "155 μs",
-    "component-resolved-in": "155 μs"
+    "component-cached-at": "2024-12-25T20:16:21.827Z",
+    "component-cached-in": "135 μs",
+    "component-resolved-in": "135 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2024-12-25T16:20:27.526Z",
-      "_cachedIn": "41 μs",
-      "_resolvedIn": "41 μs",
+      "_cachedAt": "2024-12-25T20:16:21.827Z",
+      "_cachedIn": "46 μs",
+      "_resolvedIn": "46 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -268,17 +337,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2024-12-25T16:20:27.526Z",
-        "component-cached-in": "41 μs",
-        "component-resolved-in": "41 μs"
+        "component-cached-at": "2024-12-25T20:16:21.827Z",
+        "component-cached-in": "46 μs",
+        "component-resolved-in": "46 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2024-12-25T16:20:27.526Z",
-          "_cachedIn": "23 μs",
-          "_resolvedIn": "23 μs",
+          "_cachedAt": "2024-12-25T20:16:21.827Z",
+          "_cachedIn": "25 μs",
+          "_resolvedIn": "25 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -286,7 +355,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2024-12-25T16:18:18.942Z",
+              "createdAt": "2024-12-25T20:16:06.232Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2691,7 +2760,7 @@
                 "image": "https://mrbee.io/img/logo.png",
                 "updatedAt": "2024-09-12T22:55:42.000Z",
                 "filePath": "/en/stake-pools/137f12859d0e3b2a7367991bce814cdcf55681c2a83f798b839e3a71.md",
-                "rank": 38
+                "rank": 25
               },
               {
                 "id": "1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed",
@@ -2870,7 +2939,7 @@
                 "image": "https://asnakep.github.io/repo/Snake-icon_64x64.png",
                 "updatedAt": "2023-01-24T16:27:59.000Z",
                 "filePath": "/en/stake-pools/342350284fd76ba9dbd7fd4ed579b2a2058d5ee558f8872b37817b28.md",
-                "rank": 38
+                "rank": 25
               },
               {
                 "id": "351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8",
@@ -9740,18 +9809,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2024-12-25T16:20:27.526Z",
-            "component-cached-in": "23 μs",
-            "component-resolved-in": "23 μs"
+            "component-cached-at": "2024-12-25T20:16:21.827Z",
+            "component-cached-in": "25 μs",
+            "component-resolved-in": "25 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2024-12-25T16:20:27.526Z",
-          "_cachedIn": "32 μs",
-          "_resolvedIn": "32 μs",
+          "_cachedAt": "2024-12-25T20:16:21.827Z",
+          "_cachedIn": "37 μs",
+          "_resolvedIn": "37 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9762,17 +9831,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2024-12-25T16:20:27.526Z",
-            "component-cached-in": "32 μs",
-            "component-resolved-in": "32 μs"
+            "component-cached-at": "2024-12-25T20:16:21.827Z",
+            "component-cached-in": "37 μs",
+            "component-resolved-in": "37 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2024-12-25T16:20:27.526Z",
-              "_cachedIn": "8.6 μs",
-              "_resolvedIn": "8.6 μs",
+              "_cachedAt": "2024-12-25T20:16:21.827Z",
+              "_cachedIn": "8.94 μs",
+              "_resolvedIn": "8.94 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9832,9 +9901,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2024-12-25T16:20:27.526Z",
-                "component-cached-in": "8.6 μs",
-                "component-resolved-in": "8.6 μs"
+                "component-cached-at": "2024-12-25T20:16:21.827Z",
+                "component-cached-in": "8.94 μs",
+                "component-resolved-in": "8.94 μs"
               },
               "components": {}
             }
@@ -9843,9 +9912,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2024-12-25T16:20:27.526Z",
-          "_cachedIn": "7.92 μs",
-          "_resolvedIn": "7.92 μs",
+          "_cachedAt": "2024-12-25T20:16:21.827Z",
+          "_cachedIn": "8.27 μs",
+          "_resolvedIn": "8.27 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9854,9 +9923,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2024-12-25T16:20:27.526Z",
-            "component-cached-in": "7.92 μs",
-            "component-resolved-in": "7.92 μs"
+            "component-cached-at": "2024-12-25T20:16:21.827Z",
+            "component-cached-in": "8.27 μs",
+            "component-resolved-in": "8.27 μs"
           },
           "components": {}
         }
